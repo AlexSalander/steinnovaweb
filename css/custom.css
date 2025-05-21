@@ -1,0 +1,13 @@
+/*! Place your custom styles here */
+.bar .logo {
+    max-height: 4em !important;
+    max-width: none;
+  }
+
+.heightCompensate {
+    padding-top: 1em;
+}
+
+footer .logo {
+    min-height: 2em !important;
+  }
