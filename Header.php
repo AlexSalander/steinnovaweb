@@ -37,7 +37,7 @@ $headerTexto = [
         'industries' => 'Industrias',
         'contact' => '¡Contáctanos!',
         'company' => 'SteinNova',
-        'mica' => 'Mica Termoeléctrica',
+        'mica_flogopita' => 'Rollos de Mica Flogopita',
         'cintas' => 'Cintas de Mica y Fibra de Vidrio',
         'aislamientos' => 'Aislamientos para EV',
         'piezas' => 'Piezas Mecanizadas CNC',
@@ -68,7 +68,7 @@ $headerTexto = [
         'industries' => 'Industries',
         'contact' => 'Contact Us!',
         'company' => 'SteinNova',
-        'mica' => 'Thermoelectric Mica',
+        'mica_flogopita' => 'Flogopite Mica Rolls',
         'cintas' => 'Mica and Fiberglass Tapes',
         'aislamientos' => 'EV Insulation',
         'piezas' => 'CNC Machined Parts',
@@ -99,7 +99,7 @@ $headerTexto = [
         'industries' => 'Industrien',
         'contact' => 'Kontaktieren Sie uns!',
         'company' => 'SteinNova',
-        'mica' => 'Thermoelektrische Glimmer',
+        'mica_flogopita' => 'Flogopit-Mica-Rollen',
         'cintas' => 'Glimmer- und Glasfaserbänder',
         'aislamientos' => 'EV-Isolierungen',
         'piezas' => 'CNC-bearbeitete Teile',
@@ -232,7 +232,7 @@ $currentFlag = $flagImages[$idioma];
                                     <div class="row">
                                         <div class="dropdown__content col-lg-6 col-md-5">
                                             <ul class="menu-vertical">
-                                                <li><a href="<?php echo BASE_PATH; ?>productos/micas.php?lang=<?php echo $idioma; ?>" class="dropdown-item"><?php echo $headerTexts['mica']; ?></a></li>
+                                                <li><a href="<?php echo BASE_PATH; ?>productos/micas.php?lang=<?php echo $idioma; ?>" class="dropdown-item"><?php echo $headerTexts['mica_flogopita']; ?></a></li>
                                                 <li><a href="<?php echo BASE_PATH; ?>productos/cintas.php?lang=<?php echo $idioma; ?>" class="dropdown-item"><?php echo $headerTexts['cintas']; ?></a></li>
                                                 <li><a href="<?php echo BASE_PATH; ?>productos/aislamientos.php?lang=<?php echo $idioma; ?>" class="dropdown-item"><?php echo $headerTexts['aislamientos']; ?></a></li>
                                                 <li><a href="<?php echo BASE_PATH; ?>productos/piezas.php?lang=<?php echo $idioma; ?>" class="dropdown-item"><?php echo $headerTexts['piezas']; ?></a></li>

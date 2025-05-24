@@ -9,13 +9,12 @@ $texto = [
         'Software_Industrial' => 'Software Industrial',
         'CienciaDYMonitI' => 'Ciencia de Datos y Monitoreo Inteligente',
         'productos_header' => 'Productos',
-        'mica' => 'Mica Termoeléctrica',
+        'mica_flogopita' => 'Rollos de Mica Flogopita',
         'aislamiento' => 'Aislamiento Eléctrico',
         'piezas_cnc' => 'Piezas Mecanizadas CNC',
         'cintas' => 'Cintas Dieléctricas',
         'fibra' => 'Fibra Cerámica',
         'descripcion_productos' => 'Descubre nuestra variedad de productos.',
-        'mica_flogopita' => 'Mica Flogopita',
         'mica_rigida' => 'Mica Rígida',
         'placas_mica' => 'Placas de Mica',
         'tubos_mica' => 'Tubos de Mica'
@@ -26,13 +25,12 @@ $texto = [
         'Software_Industrial' => 'Industrial Software',
         'CienciaDYMonitI' => 'Data Science and Intelligent Monitoring',
         'productos_header' => 'Products',
-        'mica' => 'Thermoelectric Mica',
+        'mica_flogopita' => 'Flogopite Mica Rolls',
         'aislamiento' => 'Electrical Insulation',
         'piezas_cnc' => 'CNC Machined Parts',
         'cintas' => 'Dielectric Tapes',
         'fibra' => 'Ceramic Fiber',
         'descripcion_productos' => 'Discover our variety of products.',
-        'mica_flogopita' => 'Flogopite Mica',
         'mica_rigida' => 'Rigid Mica',
         'placas_mica' => 'Mica Plates',
         'tubos_mica' => 'Mica Tubes'
@@ -43,13 +41,12 @@ $texto = [
         'Software_Industrial' => 'Industriesoftware',
         'CienciaDYMonitI' => 'Datenwissenschaft und intelligentes Monitoring',
         'productos_header' => 'Produkte',
-        'mica' => 'Thermoelektrische Mica',
         'aislamiento' => 'Elektrische Isolierung',
         'piezas_cnc' => 'CNC-bearbeitete Teile',
         'cintas' => 'Dielektrische Bänder',
         'fibra' => 'Keramische Faser',
         'descripcion_productos' => 'Entdecken Sie unsere Produktvielfalt.',
-        'mica_flogopita' => 'Flogopit-Mica',
+        'mica_flogopita' => 'Flogopit-Mica-Rollen',
         'mica_rigida' => 'Starre Mica',
         'placas_mica' => 'Mica-Platten',
         'tubos_mica' => 'Mica-Rohre'
@@ -150,7 +147,7 @@ $selectedTexts = $texto[$idioma];
             <div class="carousel-indicators">
                 <?php
                 $productos = [
-                    ['href' => 'productos/micas.php?lang=' . urlencode($idioma), 'img' => 'img/mica.jpg', 'label' => $selectedTexts['mica']],
+                    ['href' => 'productos/micas.php?lang=' . urlencode($idioma), 'img' => 'img/mica.jpg', 'label' => $selectedTexts['mica_flogopita']],
                     ['href' => 'productos/piezas.php?lang=' . urlencode($idioma), 'img' => 'img/cnc1.jpg', 'label' => $selectedTexts['piezas_cnc']],
                     ['href' => 'productos/cintas.php?lang=' . urlencode($idioma), 'img' => 'img/cinta.jpg', 'label' => $selectedTexts['cintas']],
                     ['href' => 'productos/M2.php?lang=' . urlencode($idioma), 'img' => 'img/mica1_1.png', 'label' => $selectedTexts['mica_rigida']],

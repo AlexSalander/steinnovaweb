@@ -4,7 +4,7 @@ $lang = $_GET['lang'] ?? 'es';
 $texts = [
     'es' => [
         'titulo' => 'Cintas de Mica Flogopita y Sintética',
-        'descripcion1' => "En SteinNova, fabricamos y suministramos cintas de mica de flogopita y mica sintética de alta calidad, diseñadas para ofrecer aislamiento térmico, eléctrico y protección contra fuego en aplicaciones industriales críticas. Estas cintas son ampliamente utilizadas en la fabricación de cables resistentes al fuego y en el aislamiento de bobinas de motores eléctricos y transformadores, cumpliendo con los más altos estándares internacionales.",
+        'descripcion' => "En SteinNova, fabricamos y suministramos cintas de mica de flogopita y mica sintética de alta calidad, diseñadas para ofrecer aislamiento térmico, eléctrico y protección contra fuego en aplicaciones industriales críticas. Estas cintas son ampliamente utilizadas en la fabricación de cables resistentes al fuego y en el aislamiento de bobinas de motores eléctricos y transformadores, cumpliendo con los más altos estándares internacionales.",
         'presentacionesHeader' => 'Aplicaciones Principales',
         'presentaciones' => [
             'Cables resistentes al fuego: Las cintas de mica actúan como barrera térmica que protege la integridad del conductor durante incendios, permitiendo el funcionamiento del sistema eléctrico incluso en condiciones extremas.',
@@ -42,7 +42,7 @@ $texts = [
     ],
     'en' => [
         'titulo' => 'Phlogopite and Synthetic Mica Tapes',
-        'descripcion1' => "At SteinNova, we manufacture and supply high-quality phlogopite and synthetic mica tapes, designed to provide thermal, electrical insulation and fire protection for critical industrial applications. These tapes are widely used in the production of fire-resistant cables and in the insulation of electric motor and transformer coils, meeting the highest international standards.",
+        'descripcion' => "At SteinNova, we manufacture and supply high-quality phlogopite and synthetic mica tapes, designed to provide thermal, electrical insulation and fire protection for critical industrial applications. These tapes are widely used in the production of fire-resistant cables and in the insulation of electric motor and transformer coils, meeting the highest international standards.",
         'presentacionesHeader' => 'Main Applications',
         'presentaciones' => [
             'Fire-resistant cables: Mica tapes act as a thermal barrier that protects the integrity of the conductor during fires, allowing the electrical system to continue operating even under extreme conditions.',
@@ -80,7 +80,7 @@ $texts = [
     ],
     'de' => [
         'titulo' => 'Phlogopit- und synthetische Glimmerbänder',
-        'descripcion1' => "Bei SteinNova stellen wir hochwertige Phlogopit- und synthetische Glimmerbänder her und liefern diese. Sie sind für thermische und elektrische Isolierung sowie für den Brandschutz in kritischen Industrieanwendungen konzipiert. Diese Bänder werden häufig bei der Herstellung feuerfester Kabel und zur Isolierung von Spulen in Elektromotoren und Transformatoren verwendet und erfüllen höchste internationale Standards.",
+        'descripcion' => "Bei SteinNova stellen wir hochwertige Phlogopit- und synthetische Glimmerbänder her und liefern diese. Sie sind für thermische und elektrische Isolierung sowie für den Brandschutz in kritischen Industrieanwendungen konzipiert. Diese Bänder werden häufig bei der Herstellung feuerfester Kabel und zur Isolierung von Spulen in Elektromotoren und Transformatoren verwendet und erfüllen höchste internationale Standards.",
         'presentacionesHeader' => 'Hauptanwendungen',
         'presentaciones' => [
             'Feuerfeste Kabel: Glimmerbänder wirken als thermische Barriere, die die Integrität des Leiters bei Bränden schützt und den Betrieb des elektrischen Systems auch unter extremen Bedingungen ermöglicht.',
@@ -121,14 +121,13 @@ $texts = [
 $selectedTexts = $texts[$lang] ?? $texts['es'];
 ?>
 
-
-
 <!DOCTYPE html>
 <html lang="<?php echo htmlspecialchars($lang); ?>">
 
 <head>
     <meta charset="UTF-8">
-    <title><?php echo $selectedTexts['titulo']; ?></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><?php echo $selectedTexts['titulo']; ?> - SteinNova</title>
     <link rel="icon" href="../img/Logo2.png" type="image/png">
 
     <!-- CSS Frameworks and Custom Styles -->
@@ -145,32 +144,59 @@ $selectedTexts = $texts[$lang] ?? $texts['es'];
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700|Merriweather:300,300i"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-</head>
 
-<body>
+    <!-- Font Awesome for Button Icon -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Estilos específicos para cintasdemica.php -->
     <style>
+        .mica-section {
+            background-color: #f8f9fa;
+        }
+        .mica-img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .btn-primary {
+            background-color: #e63946;
+            border: none;
+            padding: 12px 24px;
+            font-weight: 600;
+            font-size: 1.05rem;
+            border-radius: 8px;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            box-shadow: 0 6px 16px rgba(230, 57, 70, 0.4);
+            transition: all 0.3s ease;
+        }
+        .btn-primary:hover {
+            background-color: #d62839;
+            transform: scale(1.03);
+        }
+        .text-justified {
+            text-align: justify;
+        }
         .custom-table {
             width: 100%;
             border-collapse: separate;
             border-spacing: 0 12px;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
-
         .custom-table thead th {
-            background-color: rgb(210, 21, 21);
+            background-color: #e63946;
             color: white;
             text-align: left;
             padding: 12px 20px;
             font-size: 1.1rem;
             border-radius: 8px;
         }
-
         .custom-table tbody tr {
             background: #f9faff;
             box-shadow: 0 2px 6px rgba(74, 144, 226, 0.15);
             border-radius: 8px;
         }
-
         .custom-table tbody td {
             padding: 14px 20px;
             vertical-align: middle;
@@ -179,134 +205,48 @@ $selectedTexts = $texts[$lang] ?? $texts['es'];
             border: none;
             position: relative;
         }
-
         .custom-table tbody td .icon {
-            color: rgb(0, 0, 0);
-            margin-right: 10px;
-        }
-
-        .icon {
-            font-size: 1.2rem;
-            vertical-align: middle;
             color: #4A90E2;
             margin-right: 10px;
         }
-
         .galeria-img {
-            width: 150px;
+            width: 100%;
             height: 150px;
             object-fit: cover;
-            border-radius: 8px;
-        }
-
-        .presentaciones-list {
-            font-size: 1rem;
-            color: #333;
-            margin-bottom: 30px;
-        }
-
-        .presentaciones-list li {
-            margin-bottom: 8px;
-            padding-left: 20px;
-            position: relative;
-        }
-
-        .presentaciones-list li::before {
-            content: "\2022";
-            color: rgb(210, 21, 21);
-            font-weight: bold;
-            display: inline-block;
-            width: 1em;
-            margin-left: -1em;
+            border-radius: 0.5rem;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
         }
     </style>
+</head>
 
+<body>
     <div class="nav-container">
         <?php include '../Header.php'; ?>
     </div>
 
-    <div class="container mt-5 mb-5">
-        <h1 class="text-center mb-4 fw-bold"><?php echo $selectedTexts['titulo']; ?></h1>
-        <p class="lead text-justify"><?php echo nl2br($selectedTexts['descripcion1']); ?></p>
-
-        <!-- Presentaciones en viñetas arriba -->
-        <section>
-            <h3 class="fw-bold" style="color: rgb(210, 21, 21);"><?php echo $selectedTexts['presentacionesHeader']; ?>
-            </h3>
-            <ul class="presentaciones-list">
-                <?php foreach ($selectedTexts['presentaciones'] as $item): ?>
-                    <li><?php echo htmlspecialchars($item); ?></li>
-                <?php endforeach; ?>
-            </ul>
-        </section>
-        <div class="text-center">
-            <a href="../contacto.php" class="btn btn-danger">
-                <i class="fa-solid fa-paper-plane text-white me-2"></i>
-                <?php echo $selectedTexts['solicitarInfo']; ?>
-            </a>
-        </div>
-        <!-- Tabla con Propiedades destacadas y Aplicaciones -->
-        <table class="custom-table mt-4">
-            <thead>
-                <tr>
-                    <th><i class="fas fa-cogs"></i> <?php echo $selectedTexts['propiedadesHeader']; ?></th>
-                    <th><i class="fas fa-check-circle"></i> <?php echo $selectedTexts['aplicaciones']; ?></th>
-                </tr>
-            </thead>
-            <tbody>
-                <?php
-                $maxRows = max(count($selectedTexts['propiedadesDestacadas']), count($selectedTexts['aplicacionItems']));
-                for ($i = 0; $i < $maxRows; $i++):
-                    $propiedad = $selectedTexts['propiedadesDestacadas'][$i] ?? '';
-                    $aplicacion = $selectedTexts['aplicacionItems'][$i] ?? '';
-                    ?>
-                    <tr>
-                        <td><i class="fas fa-tools icon"></i> <?php echo htmlspecialchars($propiedad); ?></td>
-                        <td><i class="fas fa-check icon"></i> <?php echo htmlspecialchars($aplicacion); ?></td>
-                    </tr>
-                <?php endfor; ?>
-            </tbody>
-        </table>
-
-
-        <!-- Tarjetas (Mica1) -->
-        <section class="container py-5" id="Cintas1">
-            <div class="row g-4">
-                <?php for ($i = 1; $i <= 4; $i++): ?>
-                    <div class="col-md-3 col-6" id="Cintas<?php echo $i; ?>">
-                        <div class="card h-100 shadow-sm border-0">
-                            <?php
-                            $formatos = ['png', 'jpg', "jpeg"];
-                            $rutaImagen = "";
-                            foreach ($formatos as $formato) {
-                                $ruta = "../img/Cintas{$i}.{$formato}";
-                                if (file_exists($ruta)) {
-                                    $rutaImagen = $ruta;
-                                    break;
-                                }
-                            }
-                            ?>
-                            <a href="#"><img src="<?php echo $rutaImagen; ?>" class="card-img-top rounded-4"
-                                    alt="<?php echo $selectedTexts["Cintas{$i}_titulo"]; ?>"></a>
-                            <div class="card-body">
-                                <h5 class="card-title text-danger"><?php echo $selectedTexts["Cintas{$i}_titulo"]; ?></h5>
-                                <p class="card-text"><?php echo $selectedTexts["Cintas{$i}_texto"]; ?></p>
-                            </div>
-                        </div>
-                    </div>
-                <?php endfor; ?>
+    <!-- Sección Introductoria -->
+    <section class="mica-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="fw-bold text-dark mb-4"><?php echo $selectedTexts['titulo']; ?></h2>
+                    <p class="text-muted lead text-justified"><?php echo $selectedTexts['descripcion']; ?></p>
+                </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Galería -->
-        <section class="pt-5 pb-5 bg-light">
-            <div class="container">
-                <h2 class="text-center mb-4 fw-bold"><?php echo $selectedTexts['galeria']; ?></h2>
-                <div class="row g-4 justify-content-center">
-                    <?php
-                    for ($i = 1; $i <= 4; $i++):
+    <!-- Sección de Cintas -->
+    <section class="container py-5" id="Cintas1">
+        <h3 class="mt-4 text-center"><strong><?php echo $selectedTexts['exportamos']; ?></strong></h3>
+        <br><br>
+        <div class="row g-4">
+            <?php for ($i = 1; $i <= 4; $i++): ?>
+                <div class="col-md-3 col-6" id="Cintas<?php echo $i; ?>">
+                    <div class="card h-100 shadow-sm border-0">
+                        <?php
                         $formatos = ['png', 'jpg', 'jpeg'];
-                        $rutaImagen = '';
+                        $rutaImagen = "";
                         foreach ($formatos as $formato) {
                             $ruta = "../img/Cintas{$i}.{$formato}";
                             if (file_exists($ruta)) {
@@ -314,39 +254,101 @@ $selectedTexts = $texts[$lang] ?? $texts['es'];
                                 break;
                             }
                         }
-                        if ($rutaImagen):
-                            ?>
-                            <div class="col-6 col-md-4 col-lg-2">
-                                <img src="<?php echo $rutaImagen; ?>" class="card-img-top rounded-4 galeria-img"
-                                    alt="<?php echo $selectedTexts["Cintas{$i}_titulo"]; ?>">
-                            </div>
-                        <?php
-                        endif;
-                    endfor;
-                    ?>
+                        ?>
+                        <a href="#"><img src="<?php echo $rutaImagen; ?>" class="card-img-top rounded-4"
+                                alt="<?php echo $selectedTexts["Cintas{$i}_titulo"]; ?>"></a>
+                        <div class="card-body">
+                            <h5 class="card-title text-danger"><?php echo $selectedTexts["Cintas{$i}_titulo"]; ?></h5>
+                            <p class="card-text"><?php echo $selectedTexts["Cintas{$i}_texto"]; ?></p>
+                        </div>
+                    </div>
                 </div>
+            <?php endfor; ?>
+        </div>
+    </section>
+
+    <!-- Sección Tabla -->
+    <section class="py-5">
+        <div class="container">
+            <table class="custom-table">
+                <thead>
+                    <tr>
+                        <th><i class="fas fa-cogs"></i> <?php echo $selectedTexts['propiedadesHeader']; ?></th>
+                        <th><i class="fas fa-check-circle"></i> <?php echo $selectedTexts['aplicaciones']; ?></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php
+                    $maxRows = max(count($selectedTexts['propiedadesDestacadas']), count($selectedTexts['aplicacionItems']));
+                    for ($i = 0; $i < $maxRows; $i++):
+                        $propiedad = $selectedTexts['propiedadesDestacadas'][$i] ?? '';
+                        $aplicacion = $selectedTexts['aplicacionItems'][$i] ?? '';
+                        ?>
+                        <tr>
+                            <td><i class="fas fa-tools icon"></i> <?php echo htmlspecialchars($propiedad); ?></td>
+                            <td><i class="fas fa-check icon"></i> <?php echo htmlspecialchars($aplicacion); ?></td>
+                        </tr>
+                    <?php endfor; ?>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Sección de Galería -->
+    <section class="pt-5 pb-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4 fw-bold"><?php echo $selectedTexts['galeria']; ?></h2>
+            <div class="row g-4 justify-content-center">
+                <?php
+                for ($i = 1; $i <= 4; $i++):
+                    $formatos = ['png', 'jpg', 'jpeg'];
+                    $rutaImagen = '';
+                    foreach ($formatos as $formato) {
+                        $ruta = "../img/Cintas{$i}.{$formato}";
+                        if (file_exists($ruta)) {
+                            $rutaImagen = $ruta;
+                            break;
+                        }
+                    }
+                    if ($rutaImagen):
+                        ?>
+                        <div class="col-6 col-md-4 col-lg-2">
+                            <img src="<?php echo $rutaImagen; ?>" class="galeria-img"
+                                alt="<?php echo $selectedTexts["Cintas{$i}_titulo"]; ?>">
+                        </div>
+                    <?php
+                    endif;
+                endfor;
+                ?>
             </div>
-        </section>
+            <div class="text-center mt-4">
+                <a href="../contacto.php" class="btn btn-primary text-white">
+                    <i class="fa-solid fa-paper-plane text-white me-2"></i> <?php echo $selectedTexts['solicitarInfo']; ?>
+                </a>
+            </div>
+        </div>
+    </section>
 
+    <?php include '../Footer.php'; ?>
 
-        <?php include '../Footer.php'; ?>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="../js/jquery-3.1.1.min.js"></script>
-        <script src="../js/flickity.min.js"></script>
-        <script src="../js/easypiechart.min.js"></script>
-        <script src="../js/parallax.js"></script>
-        <script src="../js/typed.min.js"></script>
-        <script src="../js/datepicker.js"></script>
-        <script src="../js/isotope.min.js"></script>
-        <script src="../js/ytplayer.min.js"></script>
-        <script src="../js/lightbox.min.js"></script>
-        <script src="../js/granim.min.js"></script>
-        <script src="../js/jquery.steps.min.js"></script>
-        <script src="../js/countdown.min.js"></script>
-        <script src="../js/twitterfetcher.min.js"></script>
-        <script src="../js/spectragram.min.js"></script>
-        <script src="../js/smooth-scroll.min.js"></script>
-        <script src="../js/scripts.js"></script>
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <script src="../js/flickity.min.js"></script>
+    <script src="../js/easypiechart.min.js"></script>
+    <script src="../js/parallax.js"></script>
+    <script src="../js/typed.min.js"></script>
+    <script src="../js/datepicker.js"></script>
+    <script src="../js/isotope.min.js"></script>
+    <script src="../js/ytplayer.min.js"></script>
+    <script src="../js/lightbox.min.js"></script>
+    <script src="../js/granim.min.js"></script>
+    <script src="../js/jquery.steps.min.js"></script>
+    <script src="../js/countdown.min.js"></script>
+    <script src="../js/twitterfetcher.min.js"></script>
+    <script src="../js/spectragram.min.js"></script>
+    <script src="../js/smooth-scroll.min.js"></script>
+    <script src="../js/scripts.js"></script>
 </body>
 
 </html>

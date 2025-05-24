@@ -21,8 +21,8 @@ if (isset($idioma) && in_array($idioma, ['es', 'en', 'de'])) {
 // Definir los textos para los distintos idiomas
 $texto = [
     'es' => [
-        'productos' => 'Productos',
-        'mica_termoelectrica' => 'Mica Termoeléctrica',
+        'productos' => 'Productos', 
+        'mica_flogopita' => 'Rollos de Mica Flogopita',
         'aislamiento_electrico' => 'Aislamiento Eléctrico',
         'piezas_impresas_3d' => 'Piezas Impresas 3D',
         'piezas_mecanizadas_cnc' => 'Piezas Mecanizadas CNC',
@@ -40,7 +40,7 @@ $texto = [
         'software_industrial' => 'Software Industrial',
         'soldadura_montaje' => 'Soldadura y Montaje',
         'steinmetal' => 'SteinMetal',
-        'steinnova' => 'SteinNova', // <--- Agregado
+        'steinnova' => 'SteinNova',
         'acerca_empresa' => 'Acerca de la Empresa',
         'nuestro_equipo' => 'Nuestro Equipo',
         'nuestra_vision' => 'Nuestra Visión y Valores',
@@ -55,7 +55,7 @@ $texto = [
     ],
     'en' => [
         'productos' => 'Products',
-        'mica_termoelectrica' => 'Thermoelectric Mica',
+        'mica_flogopita' => 'Flogopite Mica Rolls',
         'aislamiento_electrico' => 'Electrical Insulation',
         'piezas_impresas_3d' => '3D Printed Parts',
         'piezas_mecanizadas_cnc' => 'CNC Machined Parts',
@@ -88,7 +88,7 @@ $texto = [
     ],
     'de' => [
         'productos' => 'Produkte',
-        'mica_termoelectrica' => 'Thermoelektrische Glimmer',
+        'mica_flogopita' => 'Flogopit-Mica-Rollen',
         'aislamiento_electrico' => 'Elektrische Isolierung',
         'piezas_impresas_3d' => '3D-gedruckte Teile',
         'piezas_mecanizadas_cnc' => 'CNC-gefräste Teile',
@@ -219,7 +219,7 @@ $selectedTexts = $texto[$idioma];
                 <div class="footer-cell">
                     <h5><?php echo $selectedTexts['productos']; ?></h5>
                     <ul class="list-unstyled">
-                        <li><a href="<?php echo BASE_PATH; ?>micas.php?lang=<?php echo $idioma; ?>"><?php echo $selectedTexts['mica_termoelectrica']; ?></a></li>
+                        <li><a href="<?php echo BASE_PATH; ?>micas.php?lang=<?php echo $idioma; ?>"><?php echo $selectedTexts['mica_flogopita']; ?></a></li>
                         <li><a href="<?php echo BASE_PATH; ?>aislamientos.php?lang=<?php echo $idioma; ?>"><?php echo $selectedTexts['aislamiento_electrico']; ?></a></li>
                         <li><a href="#"><?php echo $selectedTexts['piezas_impresas_3d']; ?></a></li>
                         <li><a href="<?php echo BASE_PATH; ?>piezas.php?lang=<?php echo $idioma; ?>"><?php echo $selectedTexts['piezas_mecanizadas_cnc']; ?></a></li>

@@ -4,8 +4,7 @@ $lang = $_GET['lang'] ?? 'es';
 $texts = [
     'es' => [
         'titulo' => 'Rollos de Mica de Flogopita',
-        'descripcion1' => 'Sección de fieltro aislante de mica con fibras cerámicas especiales. Flexible y resistente al calor, no emite olor ni humo, y soporta hasta 1200°C.',
-        'descripcion2' => 'Con baja conductividad térmica y alta resistencia termoeléctrica, mejora la eficiencia térmica de hornos industriales. Ideal para aislar crisoles en fundición.',
+        'descripcion' => 'En SteinNova ofrecemos rollos de mica de flogopita de alta resistencia térmica y eléctrica, ideales para aplicaciones industriales exigentes como hornos de inducción, sistemas de aislamiento eléctrico, fundición, fabricación de vehículos eléctricos (EV), y componentes electrónicos. Nuestros rollos están fabricados con mica de alta pureza, laminada con resinas resistentes al calor, lo que garantiza un rendimiento óptimo incluso en condiciones extremas de hasta 1000 °C.',
         'ventajas' => 'Ventajas',
         'ventajaItems' => [
             'Flexibilidad y resistencia térmica hasta 1200°C.',
@@ -20,12 +19,11 @@ $texts = [
             'Protección térmica en procesos metalúrgicos.',
             'Componentes aislantes en equipos eléctricos.',
         ],
-        'galeria' => 'Galería de Aplicaciones',           // es
+        'galeria' => 'Galería de Aplicaciones',
         'solicitarInfo' => 'Solicitar información',
         'anterior' => 'Anterior',
         'siguiente' => 'Siguiente',
-
-        'exportamos' => 'Exportamos a Estados Unidos, Canadá y Europa.',
+        'exportamos' => 'Exportamos a Estados Unidos y LATAM. Cotiza directamente con nosotros para obtener precios competitivos y entregas rápidas.',
         'mica1_titulo' => 'Fieltro de mica con fibras cerámicas',
         'mica1_texto' => 'Fieltro de mica con fibras cerámicas, flexible y resistente a altas temperaturas sin producir humo ni olor. Ideal para aislamiento térmico industrial.',
         'mica2_titulo' => 'Fieltro de mica con capa de fibra cerámica',
@@ -36,9 +34,8 @@ $texts = [
         'mica4_texto' => 'Aislamiento con lámina de acero inoxidable entre capas de mica de phlogopita. Barrera de vapor que evita la condensación de zinc en crisoles y protege equipos.',
     ],
     'en' => [
-        'titulo' => 'Mica Felt',
-        'descripcion1' => 'Section of mica insulating felt with special ceramic fibers. Flexible and heat resistant, does not emit odor or smoke, and withstands up to 1200°C.',
-        'descripcion2' => 'With low thermal conductivity and high thermo-electrical resistance, it improves thermal efficiency of industrial furnaces. Ideal for insulating casting crucibles.',
+        'titulo' => 'Phlogopite Mica Rolls',
+        'descripcion' => 'At SteinNova, we offer phlogopite mica rolls with high thermal and electrical resistance, ideal for demanding industrial applications such as induction furnaces, electrical insulation systems, foundry, electric vehicle (EV) manufacturing, and electronic components. Our rolls are made with high-purity mica, laminated with heat-resistant resins, ensuring optimal performance even in extreme conditions up to 1000°C.',
         'ventajas' => 'Advantages',
         'ventajaItems' => [
             'Flexibility and thermal resistance up to 1200°C.',
@@ -46,11 +43,6 @@ $texts = [
             'Low thermal conductivity.',
             'Ideal for high-temperature industrial applications.',
         ],
-        'galeria' => 'Application Gallery',               // en
-        'solicitarInfo' => 'Request Information',
-        'anterior' => 'Previous',
-        'siguiente' => 'Next',
-
         'aplicaciones' => 'Applications',
         'aplicacionItems' => [
             'Insulation in industrial furnaces.',
@@ -58,7 +50,11 @@ $texts = [
             'Thermal protection in metallurgical processes.',
             'Insulating components in electrical equipment.',
         ],
-        'exportamos' => 'We export to the United States, Canada, and Europe.',
+        'galeria' => 'Application Gallery',
+        'solicitarInfo' => 'Request Information',
+        'anterior' => 'Previous',
+        'siguiente' => 'Next',
+        'exportamos' => 'We export to the USA and LATAM. Quote directly with us for competitive prices and fast deliveries.',
         'mica1_titulo' => 'Phlogopite Mica Paper with Ceramic Fiber Layer',
         'mica1_texto' => 'Mica felt with ceramic fibers, flexible and resistant to high temperatures without producing smoke or odor. Ideal for industrial thermal insulation.',
         'mica2_titulo' => 'Phlogopite Mica Paper with Ceramic Fiber Layer',
@@ -69,9 +65,8 @@ $texts = [
         'mica4_texto' => 'Insulation with stainless steel foil between phlogopite mica layers. Vapor barrier ideal for preventing zinc condensation in crucibles and protects equipment effectively.',
     ],
     'de' => [
-        'titulo' => 'Mikafilter',
-        'descripcion1' => 'Abschnitt aus isolierendem Mikafilter mit speziellen Keramikfasern. Flexibel und hitzebeständig, ohne Rauch oder Geruch, bis zu 1200°C beständig.',
-        'descripcion2' => 'Mit niedriger Wärmeleitfähigkeit und hoher thermoelektrischer Beständigkeit verbessert es die thermische Effizienz industrieller Öfen. Ideal zur Isolierung von Gießkesseln.',
+        'titulo' => 'Phlogopit-Mika-Rollen',
+        'descripcion' => 'Bei SteinNova bieten wir Phlogopit-Mika-Rollen mit hoher thermischer und elektrischer Beständigkeit, ideal für anspruchsvolle industrielle Anwendungen wie Induktionsöfen, elektrische Isolationssysteme, Gießereien, die Herstellung von Elektrofahrzeugen (EV) und elektronische Komponenten. Unsere Rollen bestehen aus hochreiner Mika, laminiert mit hitzebeständigen Harzen, und gewährleisten optimale Leistung auch unter extremen Bedingungen bis zu 1000°C.',
         'ventajas' => 'Vorteile',
         'ventajaItems' => [
             'Flexibilität und Hitzebeständigkeit bis 1200°C.',
@@ -79,11 +74,6 @@ $texts = [
             'Niedrige Wärmeleitfähigkeit.',
             'Ideal für Hochtemperaturanwendungen in der Industrie.',
         ],
-        'galeria' => 'Anwendungsgalerie',                  // de
-        'solicitarInfo' => 'Information anfordern',
-        'anterior' => 'Zurück',
-        'siguiente' => 'Weiter',
-
         'aplicaciones' => 'Anwendungen',
         'aplicacionItems' => [
             'Isolierung in Industrieöfen.',
@@ -91,7 +81,11 @@ $texts = [
             'Wärmeschutz bei metallurgischen Prozessen.',
             'Isolierende Komponenten in elektrischen Geräten.',
         ],
-        'exportamos' => 'Wir exportieren in die USA, Kanada und Europa.',
+        'galeria' => 'Anwendungsgalerie',
+        'solicitarInfo' => 'Information anfordern',
+        'anterior' => 'Zurück',
+        'siguiente' => 'Weiter',
+        'exportamos' => '',
         'mica1_titulo' => 'Phlogopit-Micapapier mit Keramikfaserschicht',
         'mica1_texto' => 'Mikafilter mit Keramikfasern, flexibel und hitzebeständig ohne Rauch oder Geruch. Ideal für industrielle Wärmedämmung.',
         'mica2_titulo' => 'Phlogopit-Micapapier mit Keramikfaserschicht',
@@ -103,7 +97,6 @@ $texts = [
     ],
 ];
 
-
 $selectedTexts = $texts[$lang] ?? $texts['es'];
 ?>
 
@@ -113,7 +106,7 @@ $selectedTexts = $texts[$lang] ?? $texts['es'];
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo $selectedTexts['titulo']; ?></title>
+    <title><?php echo $selectedTexts['titulo']; ?> - SteinNova</title>
     <link rel="icon" href="../img/Logo2.png" type="image/png">
 
     <!-- CSS Frameworks and Custom Styles -->
@@ -130,20 +123,54 @@ $selectedTexts = $texts[$lang] ?? $texts['es'];
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700|Merriweather:300,300i"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-</head>
 
-<body>
+    <!-- Font Awesome for Button Icon -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Estilos específicos para rollosdemica.php -->
     <style>
+        .mica-section {
+            background-color: #f8f9fa;
+        }
+
+        .mica-img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn-primary {
+            background-color: #e63946;
+            border: none;
+            padding: 12px 24px;
+            font-weight: 600;
+            font-size: 1.05rem;
+            border-radius: 8px;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            box-shadow: 0 6px 16px rgba(230, 57, 70, 0.4);
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: #d62839;
+            transform: scale(1.03);
+        }
+
+        .text-justified {
+            text-align: justify;
+        }
+
         .custom-table {
             width: 100%;
             border-collapse: separate;
             border-spacing: 0 12px;
-            /* espacio entre filas */
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
 
         .custom-table thead th {
-            background-color: rgb(210, 21, 21);
+            background-color: #e63946;
             color: white;
             text-align: left;
             padding: 12px 20px;
@@ -167,63 +194,42 @@ $selectedTexts = $texts[$lang] ?? $texts['es'];
         }
 
         .custom-table tbody td .icon {
-            color: rgb(0, 0, 0);
-            margin-right: 10px;
-        }
-
-        .icon {
-            font-size: 1.2rem;
-            /* más pequeño, ajusta según prefieras */
-            vertical-align: middle;
-            /* para que quede alineado con el texto */
             color: #4A90E2;
             margin-right: 10px;
         }
-    </style>
 
+        .galeria-img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 0.5rem;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
     <div class="nav-container">
         <?php include '../Header.php'; ?>
     </div>
 
-    <div class="container mt-5 mb-5">
-        <h1 class="text-center mb-4 fw-bold"><?php echo $selectedTexts['titulo']; ?></h1>
-        <p class="lead text-justify"><?php echo $selectedTexts['descripcion1']; ?></p>
-        <p class="text-justify"><?php echo $selectedTexts['descripcion2']; ?></p>
+    <!-- Sección Introductoria -->
+    <section class="mica-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="fw-bold text-dark mb-4"><?php echo $selectedTexts['titulo']; ?></h2>
+                    <p class="text-muted lead text-justified"><?php echo $selectedTexts['descripcion']; ?></p>
 
-
-        <table class="custom-table mt-4">
-            <thead>
-                <tr>
-                    <th><i class="fas fa-check-circle"></i> <?php echo $selectedTexts['ventajas']; ?></th>
-                    <th><i class="fas fa-cogs"></i> <?php echo $selectedTexts['aplicaciones']; ?></th>
-                </tr>
-            </thead>
-            <tbody>
-                <?php
-                $maxRows = max(count($selectedTexts['ventajaItems']), count($selectedTexts['aplicacionItems']));
-                for ($i = 0; $i < $maxRows; $i++):
-                    $ventaja = isset($selectedTexts['ventajaItems'][$i]) ? $selectedTexts['ventajaItems'][$i] : '';
-                    $aplicacion = isset($selectedTexts['aplicacionItems'][$i]) ? $selectedTexts['aplicacionItems'][$i] : '';
-                    ?>
-                    <tr>
-                        <td><i class="fas fa-check icon"></i> <?php echo $ventaja; ?></td>
-                        <td><i class="fas fa-tools icon"></i> <?php echo $aplicacion; ?></td>
-                    </tr>
-                <?php endfor; ?>
-            </tbody>
-        </table>
-
-        <h3 class="mt-4 text-center"><strong><?php echo $selectedTexts['exportamos']; ?></strong></h3>
-
-        <div class="text-center mt-4">
-            <a href="../contacto.php" class="btn btn-danger">
-                <i class="fa-solid fa-paper-plane text-white me-2"></i>
-                <?php echo $selectedTexts['solicitarInfo']; ?>
-            </a>
+                </div>
+            </div>
         </div>
-    </div>
-    <!-- Seccion de micas-->
+    </section>
+
+    <!-- Sección de Micas -->
     <section class="container py-5" id="mica1">
+        <h3 class="mt-4 text-center"><strong><?php echo $selectedTexts['exportamos']; ?></strong></h3>
+        <br><br>
         <div class="row g-4">
             <div class="col-md-3 col-6" id="mica1">
                 <div class="card h-100 shadow-sm border-0">
@@ -268,22 +274,38 @@ $selectedTexts = $texts[$lang] ?? $texts['es'];
         </div>
     </section>
 
-    <!-- Seccion de carrusel-->
+    <!-- Sección Tabla -->
+    <section class="py-5">
+        <div class="container">
+            <table class="custom-table">
+                <thead>
+                    <tr>
+                        <th><i class="fas fa-check-circle"></i> <?php echo $selectedTexts['ventajas']; ?></th>
+                        <th><i class="fas fa-cogs"></i> <?php echo $selectedTexts['aplicaciones']; ?></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php
+                    $maxRows = max(count($selectedTexts['ventajaItems']), count($selectedTexts['aplicacionItems']));
+                    for ($i = 0; $i < $maxRows; $i++):
+                        $ventaja = isset($selectedTexts['ventajaItems'][$i]) ? $selectedTexts['ventajaItems'][$i] : '';
+                        $aplicacion = isset($selectedTexts['aplicacionItems'][$i]) ? $selectedTexts['aplicacionItems'][$i] : '';
+                        ?>
+                        <tr>
+                            <td><i class="fas fa-check icon"></i> <?php echo $ventaja; ?></td>
+                            <td><i class="fas fa-tools icon"></i> <?php echo $aplicacion; ?></td>
+                        </tr>
+                    <?php endfor; ?>
+                </tbody>
+            </table>
+            
+        </div>
+    </section>
+
+    <!-- Sección de Galería -->
     <section class="pt-5 pb-5 bg-light">
         <div class="container">
             <h2 class="text-center mb-4 fw-bold"><?php echo $selectedTexts['galeria']; ?></h2>
-
-            <style>
-                .galeria-img {
-                    width: 100%;
-                    height: 150px;
-                    /* o ajusta a 180px, 200px si prefieres más alto */
-                    object-fit: cover;
-                    border-radius: 0.5rem;
-                    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-                }
-            </style>
-
             <div class="row g-4 justify-content-center">
                 <div class="col-6 col-md-4 col-lg-2">
                     <img src="../img/M1.png" class="galeria-img" alt="Mica 1">
@@ -300,6 +322,12 @@ $selectedTexts = $texts[$lang] ?? $texts['es'];
                 <div class="col-6 col-md-4 col-lg-2">
                     <img src="../img/M5.png" class="galeria-img" alt="Mica 5">
                 </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="../contacto.php" class="btn btn-primary text-white">
+                    <i class="fa-solid fa-paper-plane text-white me-2"></i>
+                    <?php echo $selectedTexts['solicitarInfo']; ?>
+                </a>
             </div>
         </div>
     </section>
@@ -325,7 +353,6 @@ $selectedTexts = $texts[$lang] ?? $texts['es'];
     <script src="../js/spectragram.min.js"></script>
     <script src="../js/smooth-scroll.min.js"></script>
     <script src="../js/scripts.js"></script>
-
 </body>
 
 </html>
