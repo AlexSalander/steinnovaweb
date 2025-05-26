@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="es">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,18 +8,23 @@
   <meta name="description" content="Soluciones industriales en aislamiento dieléctrico automotriz y más.">
   <link rel="icon" href="../img/Logo2.png" type="image/png">
 
-  <!-- Google Fonts e Iconos -->
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Merriweather:300&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-
-  <!-- Bootstrap y estilos personalizados -->
+  <!-- CSS Frameworks and Custom Styles -->
   <link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
   <link href="../css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
   <link href="../css/theme.css" rel="stylesheet" type="text/css" media="all" />
   <link href="../css/custom.css" rel="stylesheet" type="text/css" media="all" />
+
+  <!-- Bootstrap 5 CDN -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700|Merriweather:300,300i"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Font Awesome for Button Icon -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 
   <!-- Estilos embebidos -->
   <style>
@@ -155,6 +161,7 @@
         opacity: 0;
         transform: translateY(30px);
       }
+
       to {
         opacity: 1;
         transform: translateY(0);
@@ -176,7 +183,9 @@
         <div class="text-center mb-5">
           <h1>Petróleo y Gas</h1>
           <p class="mt-3 mx-auto" style="max-width: 800px;">
-            Explore cómo nuestra gama de productos especializados en mica dieléctrica proporciona soluciones cruciales para la industria del petróleo y gas. Desde el sellado hermético hasta el aislamiento eléctrico y la protección contra la corrosión, garantizamos la seguridad y el rendimiento en entornos exigentes.
+            Explore cómo nuestra gama de productos especializados en mica dieléctrica proporciona soluciones cruciales
+            para la industria del petróleo y gas. Desde el sellado hermético hasta el aislamiento eléctrico y la
+            protección contra la corrosión, garantizamos la seguridad y el rendimiento en entornos exigentes.
           </p>
         </div>
 
@@ -190,11 +199,13 @@
               <table>
                 <tr>
                   <td><strong>Empaquetaduras y Juntas para Equipos de Alta Temperatura y Presión</strong></td>
-                  <td><span>Fabricación de empaquetaduras y juntas para sellar equipos sometidos a altas temperaturas y presiones.</span></td>
+                  <td><span>Fabricación de empaquetaduras y juntas para sellar equipos sometidos a altas temperaturas y
+                      presiones.</span></td>
                 </tr>
                 <tr>
                   <td><strong>Aislamiento de resistencia y sensores</strong></td>
-                  <td><span>Aplicaciones donde se necesitan resistencias y sensores para medir la temperatura en pozos petroleros o equipos de perforación.</span></td>
+                  <td><span>Aplicaciones donde se necesitan resistencias y sensores para medir la temperatura en pozos
+                      petroleros o equipos de perforación.</span></td>
                 </tr>
                 <tr>
                   <td><strong>Empaquetaduras y Juntas en Equipos de Instrumentación</strong></td>
@@ -202,11 +213,13 @@
                 </tr>
                 <tr>
                   <td><strong>Aislamiento en Motores y Equipos Eléctricos</strong></td>
-                  <td><span>Fabricación de componentes aislantes, como laminados y cintas, para proteger los bobinados y evitar fallos eléctricos.</span></td>
+                  <td><span>Fabricación de componentes aislantes, como laminados y cintas, para proteger los bobinados y
+                      evitar fallos eléctricos.</span></td>
                 </tr>
                 <tr>
                   <td><strong>Revestimientos Anticorrosivos</strong></td>
-                  <td><span>La mica se utiliza como una barrera anticorrosiva en equipos metálicos utilizados en entornos corrosivos.</span></td>
+                  <td><span>La mica se utiliza como una barrera anticorrosiva en equipos metálicos utilizados en
+                      entornos corrosivos.</span></td>
                 </tr>
               </table>
               <a href="../contacto.php" class="btn btn-primary text-white">
@@ -227,20 +240,21 @@
 
   <!-- Scripts -->
   <script src="../js/jquery-3.1.1.min.js"></script>
-    <script src="../js/flickity.min.js"></script>
-    <script src="../js/easypiechart.min.js"></script>
-    <script src="../js/parallax.js"></script>
-    <script src="../js/typed.min.js"></script>
-    <script src="../js/datepicker.js"></script>
-    <script src="../js/isotope.min.js"></script>
-    <script src="../js/ytplayer.min.js"></script>
-    <script src="../js/lightbox.min.js"></script>
-    <script src="../js/granim.min.js"></script>
-    <script src="../js/jquery.steps.min.js"></script>
-    <script src="../js/countdown.min.js"></script>
-    <script src="../js/twitterfetcher.min.js"></script>
-    <script src="../js/spectragram.min.js"></script>
-    <script src="../js/smooth-scroll.min.js"></script>
-    <script src="../js/scripts.js"></script>
+  <script src="../js/flickity.min.js"></script>
+  <script src="../js/easypiechart.min.js"></script>
+  <script src="../js/parallax.js"></script>
+  <script src="../js/typed.min.js"></script>
+  <script src="../js/datepicker.js"></script>
+  <script src="../js/isotope.min.js"></script>
+  <script src="../js/ytplayer.min.js"></script>
+  <script src="../js/lightbox.min.js"></script>
+  <script src="../js/granim.min.js"></script>
+  <script src="../js/jquery.steps.min.js"></script>
+  <script src="../js/countdown.min.js"></script>
+  <script src="../js/twitterfetcher.min.js"></script>
+  <script src="../js/spectragram.min.js"></script>
+  <script src="../js/smooth-scroll.min.js"></script>
+  <script src="../js/scripts.js"></script>
 </body>
+
 </html>

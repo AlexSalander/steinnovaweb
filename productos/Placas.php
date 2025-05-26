@@ -4,35 +4,33 @@ $lang = $_GET['lang'] ?? 'es';
 $texts = [
     'es' => [
         'titulo' => 'Placas de Mica',
-        'descripcion1' => "En SteinNova, fabricamos y distribuimos placas rígidas de mica de flogopita y muscovita en espesores desde 13 mm hasta 100 mm, diseñadas para aislamiento térmico y eléctrico de alto rendimiento en entornos industriales extremos.",
-        'descripcion2' => "Estas placas están compuestas por múltiples capas de mica natural prensadas con resinas termoestables, ofreciendo máxima resistencia mecánica, rigidez estructural y estabilidad térmica incluso en contacto directo con metales fundidos o fuentes de calor intenso.",
+        'descripcion' => "En Stein Metal, fabricamos y distribuimos placas rígidas de mica de flogopita y muscovita en espesores desde 13 mm hasta 100 mm, diseñadas para aislamiento térmico y eléctrico de alto rendimiento en entornos industriales extremos. Estas placas están compuestas por múltiples capas de mica natural prensadas con resinas termoestables, ofreciendo máxima resistencia mecánica, rigidez estructural y estabilidad térmica incluso en contacto directo con metales fundidos o fuentes de calor intenso.",
+        'presentacionesHeader' => 'Presentaciones Disponibles',
         'presentaciones' => [
-            'Espesores: de 13 mm hasta 100 mm',
+            'Espesores: de 13 mm hasta 100 mm',
             'Material: Flogopita (color dorado) y Muscovita (color plateado)',
             'Formatos: Placa entera o piezas mecanizadas',
             'Envíos: Nacionales e internacionales',
         ],
-        'propiedadesHeader' => 'Ventajas técnicas',
-        'presentacionesHeader' => 'Presentaciones disponibles',
+        'propiedadesHeader' => 'Ventajas Técnicas',
         'propiedadesDestacadas' => [
-            "Resistencia térmica continua de hasta 1000 °C (flogopita) y 500 °C (muscovita)",
-            "Altísima rigidez estructural en espesores gruesos",
-            "Bajo coeficiente de expansión térmica",
-            "Resistencia a la presión y a impactos",
-            "Personalización en corte CNC según planos o necesidades"
+            'Resistencia térmica continua de hasta 1000 °C (flogopita) y 500 °C (muscovita)',
+            'Altísima rigidez estructural en espesores gruesos',
+            'Bajo coeficiente de expansión térmica',
+            'Resistencia a la presión y a impactos',
+            'Personalización en corte CNC según planos o necesidades',
         ],
-        'aplicaciones' => 'Usos industriales más frecuentes',
+        'aplicaciones' => 'Usos Industriales Más Frecuentes',
         'aplicacionItems' => [
             'Aislamiento en hornos de inducción y fundición',
             'Bases y soportes térmicos para coladas de aluminio y acero',
             'Barreras eléctricas en sistemas de alta tensión',
             'Aplicaciones especiales en maquinaria pesada y equipos para vehículos eléctricos (EV)',
-            'Uso como aislante térmico en transformadores y generadores industriales'
+            'Uso como aislante térmico en transformadores y generadores industriales',
         ],
-
         'galeria' => 'Galería de Aplicaciones',
-        'solicitarInfo' => 'Solicitar información',
-        'exportamos' => 'Experiencia, tecnología avanzada y compromiso con la calidad nos respaldan.',
+        'solicitarInfo' => 'Solicitar Información',
+        'exportamos' => 'Soluciones innovadoras con calidad certificada internacionalmente.',
         'Placa1_titulo' => 'Corte CNC Personalizado',
         'Placa1_texto' => 'Piezas diseñadas a medida según tus necesidades industriales.',
         'Placa2_titulo' => 'Material de Alto Rendimiento',
@@ -43,23 +41,22 @@ $texts = [
         'Placa4_texto' => 'Soluciones para fundición, hornos y maquinaria pesada.',
     ],
     'en' => [
-        'titulo' => 'Mica Sheets',
-        'descripcion1' => "At SteinNova, we manufacture and distribute rigid mica sheets made of phlogopite and muscovite in thicknesses from 13 mm to 100 mm, designed for high-performance thermal and electrical insulation in extreme industrial environments.",
-        'descripcion2' => "These sheets consist of multiple layers of natural mica pressed with thermosetting resins, offering maximum mechanical resistance, structural rigidity, and thermal stability even in direct contact with molten metals or intense heat sources.",
+        'titulo' => 'Mica Plates',
+        'descripcion' => "At Stein Metal, we manufacture and distribute rigid mica sheets made of phlogopite and muscovite in thicknesses from 13 mm to 100 mm, designed for high-performance thermal and electrical insulation in extreme industrial environments. These sheets consist of multiple layers of natural mica pressed with thermosetting resins, offering maximum mechanical resistance, structural rigidity, and thermal stability even in direct contact with molten metals or intense heat sources.",
+        'presentacionesHeader' => 'Available Presentations',
         'presentaciones' => [
-            'Thickness: 13 mm to 100 mm',
+            'Thickness: 13 mm to 100 mm',
             'Material: Phlogopite (golden color) and Muscovite (silver color)',
             'Formats: Full sheets or machined parts',
-            'Shipping: National and international'
+            'Shipping: National and international',
         ],
         'propiedadesHeader' => 'Technical Advantages',
-        'presentacionesHeader' => 'Available Presentations',
         'propiedadesDestacadas' => [
-            "Continuous thermal resistance up to 1000 °C (phlogopite) and 500 °C (muscovite)",
-            "Very high structural rigidity in thick sheets",
-            "Low thermal expansion coefficient",
-            "Resistance to pressure and impacts",
-            "CNC cutting customization according to plans or needs"
+            'Continuous thermal resistance up to 1000 °C (phlogopite) and 500 °C (muscovite)',
+            'Very high structural rigidity in thick sheets',
+            'Low thermal expansion coefficient',
+            'Resistance to pressure and impacts',
+            'CNC cutting customization according to plans or needs',
         ],
         'aplicaciones' => 'Most Common Industrial Uses',
         'aplicacionItems' => [
@@ -67,12 +64,11 @@ $texts = [
             'Thermal bases and supports for aluminum and steel casting',
             'Electrical barriers in high-voltage systems',
             'Special applications in heavy machinery and electric vehicle (EV) equipment',
-            'Used as thermal insulation in industrial transformers and generators'
+            'Used as thermal insulation in industrial transformers and generators',
         ],
-
         'galeria' => 'Application Gallery',
         'solicitarInfo' => 'Request Information',
-        'exportamos' => 'Experience, advanced technology, and commitment to quality back us up.',
+        'exportamos' => 'Innovative solutions with internationally certified quality.',
         'Placa1_titulo' => 'Custom CNC Cutting',
         'Placa1_texto' => 'Parts tailored to your industrial needs.',
         'Placa2_titulo' => 'High-Performance Material',
@@ -84,34 +80,33 @@ $texts = [
     ],
     'de' => [
         'titulo' => 'Glimmerplatten',
-        'descripcion1' => "Bei SteinNova stellen wir starre Glimmerplatten aus Phlogopit und Muskovit mit Dicken von 13 mm bis 100 mm her und vertreiben sie. Sie sind für die Hochleistungs-Wärme- und Elektroisolierung in extremen Industrieumgebungen ausgelegt.",
-        'descripcion2' => "Diese Platten bestehen aus mehreren Schichten natürlichem Glimmer, die mit duroplastischen Harzen gepresst sind, und bieten maximale mechanische Festigkeit, strukturelle Steifigkeit und thermische Stabilität – selbst bei direktem Kontakt mit geschmolzenen Metallen oder intensiven Wärmequellen.",
+        'descripcion' => "Bei Stein Metal stellen wir starre Glimmerplatten aus Phlogopit und Muskovit mit Dicken von 13 mm bis 100 mm her und vertreiben sie. Sie sind für die Hochleistungs-Wärme- und Elektroisolierung in extremen Industrieumgebungen ausgelegt. Diese Platten bestehen aus mehreren Schichten natürlichem Glimmer, die mit duroplastischen Harzen gepresst sind, und bieten maximale mechanische Festigkeit, strukturelle Steifigkeit und thermische Stabilität – selbst bei direktem Kontakt mit geschmolzenen Metallen oder intensiven Wärmequellen.",
+        'presentacionesHeader' => 'Verfügbare Ausführungen',
         'presentaciones' => [
-            'Dicken: von 13 mm bis 100 mm',
+            'Dicken: von 13 mm bis 100 mm',
             'Material: Phlogopit (goldfarben) und Muskovit (silberfarben)',
             'Formate: Ganze Platten oder bearbeitete Teile',
-            'Versand: National und international'
+            'Versand: National und international',
         ],
         'propiedadesHeader' => 'Technische Vorteile',
-        'presentacionesHeader' => 'Verfügbare Ausführungen',
         'propiedadesDestacadas' => [
-            "Dauerhafte Wärmebeständigkeit bis 1000 °C (Phlogopit) und 500 °C (Muskovit)",
-            "Sehr hohe strukturelle Steifigkeit bei dicken Platten",
-            "Niedriger Wärmeausdehnungskoeffizient",
-            "Beständigkeit gegen Druck und Stöße",
-            "CNC-Zuschnitt nach Plänen oder Anforderungen möglich"
+            'Dauerhafte Wärmebeständigkeit bis 1000 °C (Phlogopit) und 500 °C (Muskovit)',
+            'Sehr hohe strukturelle Steifigkeit bei dicken Platten',
+            'Niedriger Wärmeausdehnungskoeffizient',
+            'Beständigkeit gegen Druck und Stöße',
+            'CNC-Zuschnitt nach Plänen oder Anforderungen möglich',
         ],
-        'aplicaciones' => 'Häufigste industrielle Anwendungen',
+        'aplicaciones' => 'Häufigste Industrielle Anwendungen',
         'aplicacionItems' => [
             'Isolierung in Induktions- und Schmelzöfen',
             'Thermische Basen und Stützen für Aluminium- und Stahlguss',
             'Elektrische Barrieren in Hochspannungssystemen',
             'Spezielle Anwendungen in Schwermaschinen und Elektrofahrzeugausrüstung (EV)',
-            'Verwendung als Wärmedämmung in industriellen Transformatoren und Generatoren'
+            'Verwendung als Wärmedämmung in industriellen Transformatoren und Generatoren',
         ],
         'galeria' => 'Anwendungsgalerie',
-        'solicitarInfo' => 'Information anfordern',
-        'exportamos' => 'Erfahrung, moderne Technologie und Qualitätsengagement zeichnen uns aus.',
+        'solicitarInfo' => 'Information Anfordern',
+        'exportamos' => 'Innovative Lösungen mit international zertifizierter Qualität.',
         'Placa1_titulo' => 'Individueller CNC-Zuschnitt',
         'Placa1_texto' => 'Teile maßgeschneidert nach Ihren Industrieanforderungen.',
         'Placa2_titulo' => 'Hochleistungsmaterial',
@@ -131,7 +126,8 @@ $selectedTexts = $texts[$lang] ?? $texts['es'];
 
 <head>
     <meta charset="UTF-8">
-    <title><?php echo $selectedTexts['titulo']; ?></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><?php echo $selectedTexts['titulo']; ?> - Stein Metal</title>
     <link rel="icon" href="../img/Logo2.png" type="image/png">
 
     <!-- CSS Frameworks and Custom Styles -->
@@ -148,10 +144,45 @@ $selectedTexts = $texts[$lang] ?? $texts['es'];
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700|Merriweather:300,300i"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-</head>
 
-<body>
+    <!-- Font Awesome for Button Icon -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Estilos específicos -->
     <style>
+        .mica-section {
+            background-color: #f8f9fa;
+        }
+
+        .mica-img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn-primary {
+            background-color: #e63946;
+            border: none;
+            padding: 12px 24px;
+            font-weight: 600;
+            font-size: 1.05rem;
+            border-radius: 8px;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            box-shadow: 0 6px 16px rgba(230, 57, 70, 0.4);
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: #d62839;
+            transform: scale(1.03);
+        }
+
+        .text-justified {
+            text-align: justify;
+        }
+
         .custom-table {
             width: 100%;
             border-collapse: separate;
@@ -160,7 +191,7 @@ $selectedTexts = $texts[$lang] ?? $texts['es'];
         }
 
         .custom-table thead th {
-            background-color: rgb(210, 21, 21);
+            background-color: #e63946;
             color: white;
             text-align: left;
             padding: 12px 20px;
@@ -169,7 +200,7 @@ $selectedTexts = $texts[$lang] ?? $texts['es'];
         }
 
         .custom-table tbody tr {
-            background: #f9faff;
+            background: tertiary;
             box-shadow: 0 2px 6px rgba(74, 144, 226, 0.15);
             border-radius: 8px;
         }
@@ -184,22 +215,23 @@ $selectedTexts = $texts[$lang] ?? $texts['es'];
         }
 
         .custom-table tbody td .icon {
-            color: rgb(0, 0, 0);
-            margin-right: 10px;
-        }
-
-        .icon {
-            font-size: 1.2rem;
-            vertical-align: middle;
             color: #4A90E2;
             margin-right: 10px;
         }
 
-        .galeria-img {
-            width: 150px;
+        .card-img-top {
+            width: 100%;
             height: 150px;
             object-fit: cover;
-            border-radius: 8px;
+            border-radius: 0.5rem;
+        }
+
+        .galeria-img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 0.5rem;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
         }
 
         .presentaciones-list {
@@ -216,100 +248,42 @@ $selectedTexts = $texts[$lang] ?? $texts['es'];
 
         .presentaciones-list li::before {
             content: "\2022";
-            color: rgb(210, 21, 21);
+            color: #e63946;
             font-weight: bold;
             display: inline-block;
             width: 1em;
             margin-left: -1em;
         }
     </style>
+</head>
 
+<body>
     <div class="nav-container">
         <?php include '../Header.php'; ?>
     </div>
 
-    <div class="container mt-5 mb-5">
-        <h1 class="text-center mb-4 fw-bold"><?php echo $selectedTexts['titulo']; ?></h1>
-        <p class="lead text-justify"><?php echo nl2br($selectedTexts['descripcion1']); ?></p>
-
-        <!-- Presentaciones en viñetas arriba -->
-        <section>
-            <h3 class="fw-bold" style="color: rgb(210, 21, 21);"><?php echo $selectedTexts['presentacionesHeader']; ?>
-            </h3>
-            <ul class="presentaciones-list">
-                <?php foreach ($selectedTexts['presentaciones'] as $item): ?>
-                    <li><?php echo htmlspecialchars($item); ?></li>
-                <?php endforeach; ?>
-            </ul>
-        </section>
-        <div class="text-center">
-            <a href="../contacto.php" class="btn btn-danger">
-                <i class="fa-solid fa-paper-plane text-white me-2"></i>
-                <?php echo $selectedTexts['solicitarInfo']; ?>
-            </a>
-        </div>
-        <!-- Tabla con Propiedades destacadas y Aplicaciones -->
-        <table class="custom-table mt-4">
-            <thead>
-                <tr>
-                    <th><i class="fas fa-cogs"></i> <?php echo $selectedTexts['propiedadesHeader']; ?></th>
-                    <th><i class="fas fa-check-circle"></i> <?php echo $selectedTexts['aplicaciones']; ?></th>
-                </tr>
-            </thead>
-            <tbody>
-                <?php
-                $maxRows = max(count($selectedTexts['propiedadesDestacadas']), count($selectedTexts['aplicacionItems']));
-                for ($i = 0; $i < $maxRows; $i++):
-                    $propiedad = $selectedTexts['propiedadesDestacadas'][$i] ?? '';
-                    $aplicacion = $selectedTexts['aplicacionItems'][$i] ?? '';
-                    ?>
-                    <tr>
-                        <td><i class="fas fa-tools icon"></i> <?php echo htmlspecialchars($propiedad); ?></td>
-                        <td><i class="fas fa-check icon"></i> <?php echo htmlspecialchars($aplicacion); ?></td>
-                    </tr>
-                <?php endfor; ?>
-            </tbody>
-        </table>
-
-
-        <!-- Tarjetas (Mica1) -->
-        <section class="container py-5" id="Placa1">
-            <div class="row g-4">
-                <?php for ($i = 1; $i <= 4; $i++): ?>
-                    <div class="col-md-3 col-6" id="Placa<?php echo $i; ?>">
-                        <div class="card h-100 shadow-sm border-0">
-                            <?php
-                            $formatos = ['png', 'jpg', "jpeg"];
-                            $rutaImagen = "";
-                            foreach ($formatos as $formato) {
-                                $ruta = "../img/Placa{$i}.{$formato}";
-                                if (file_exists($ruta)) {
-                                    $rutaImagen = $ruta;
-                                    break;
-                                }
-                            }
-                            ?>
-                            <a href="#"><img src="<?php echo $rutaImagen; ?>" class="card-img-top rounded-4"
-                                    alt="<?php echo $selectedTexts["Placa{$i}_titulo"]; ?>"></a>
-                            <div class="card-body">
-                                <h5 class="card-title text-danger"><?php echo $selectedTexts["Placa{$i}_titulo"]; ?></h5>
-                                <p class="card-text"><?php echo $selectedTexts["Placa{$i}_texto"]; ?></p>
-                            </div>
-                        </div>
-                    </div>
-                <?php endfor; ?>
+    <!-- Sección Introductoria -->
+    <section class="mica-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="fw-bold text-dark mb-4"><?php echo $selectedTexts['titulo']; ?></h1>
+                    <p class="text-muted lead text-justified"><?php echo nl2br($selectedTexts['descripcion']); ?></p>
+                </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Galería -->
-        <section class="pt-5 pb-5 bg-light">
-            <div class="container">
-                <h2 class="text-center mb-4 fw-bold"><?php echo $selectedTexts['galeria']; ?></h2>
-                <div class="row g-4 justify-content-center">
-                    <?php
-                    for ($i = 1; $i <= 4; $i++):
+        <!-- Sección de Tarjetas -->
+    <section class="container py-5" id="Placa1">
+        <h3 class="mt-4 text-center"><strong><?php echo $selectedTexts['exportamos']; ?></strong></h3>
+        <div class="row g-4 mt-4">
+            <?php for ($i = 1; $i <= 4; $i++): ?>
+                <div class="col-md-3 col-6" id="Placa<?php echo $i; ?>">
+                    <div class="card h-100 shadow-sm border-0">
+                        <?php
                         $formatos = ['png', 'jpg', 'jpeg'];
-                        $rutaImagen = '';
+                        $rutaImagen = "";
                         foreach ($formatos as $formato) {
                             $ruta = "../img/Placa{$i}.{$formato}";
                             if (file_exists($ruta)) {
@@ -317,39 +291,112 @@ $selectedTexts = $texts[$lang] ?? $texts['es'];
                                 break;
                             }
                         }
-                        if ($rutaImagen):
-                            ?>
-                            <div class="col-6 col-md-4 col-lg-2">
-                                <img src="<?php echo $rutaImagen; ?>" class="card-img-top rounded-4 galeria-img"
-                                    alt="<?php echo $selectedTexts["Placa{$i}_titulo"]; ?>">
-                            </div>
-                            <?php
-                        endif;
-                    endfor;
-                    ?>
+                        ?>
+                        <a href="#"><img src="<?php echo $rutaImagen; ?>" class="card-img-top rounded-4"
+                                alt="<?php echo $selectedTexts["Placa{$i}_titulo"]; ?>"></a>
+                        <div class="card-body">
+                            <h5 class="card-title text-danger"><?php echo $selectedTexts["Placa{$i}_titulo"]; ?></h5>
+                            <p class="card-text"><?php echo $selectedTexts["Placa{$i}_texto"]; ?></p>
+                        </div>
+                    </div>
                 </div>
+            <?php endfor; ?>
+        </div>
+    </section>
+
+    <!-- Sección de Presentaciones -->
+    <section class="container py-5">
+        <h3 class="fw-bold mb-4" style="color: #e63946;"><?php echo $selectedTexts['presentacionesHeader']; ?></h3>
+        <ul class="presentaciones-list">
+            <?php foreach ($selectedTexts['presentaciones'] as $item): ?>
+                <li><?php echo htmlspecialchars($item); ?></li>
+            <?php endforeach; ?>
+        </ul>
+    </section>
+
+    <!-- Sección Tabla de Propiedades y Aplicaciones -->
+    <section class="py-5">
+        <div class="container">
+            <table class="custom-table">
+                <thead>
+                    <tr>
+                        <th><i class="fas fa-cogs"></i> <?php echo $selectedTexts['propiedadesHeader']; ?></th>
+                        <th><i class="fas fa-check-circle"></i> <?php echo $selectedTexts['aplicaciones']; ?></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php
+                    $maxRows = max(count($selectedTexts['propiedadesDestacadas']), count($selectedTexts['aplicacionItems']));
+                    for ($i = 0; $i < $maxRows; $i++):
+                        $propiedad = $selectedTexts['propiedadesDestacadas'][$i] ?? '';
+                        $aplicacion = $selectedTexts['aplicacionItems'][$i] ?? '';
+                        ?>
+                        <tr>
+                            <td><i class="fas fa-tools icon"></i> <?php echo htmlspecialchars($propiedad); ?></td>
+                            <td><i class="fas fa-check icon"></i> <?php echo htmlspecialchars($aplicacion); ?></td>
+                        </tr>
+                    <?php endfor; ?>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Sección de Galería -->
+    <section class="pt-5 pb-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4 fw-bold"><?php echo $selectedTexts['galeria']; ?></h2>
+            <div class="row g-4 justify-content-center">
+                <?php
+                for ($i = 1; $i <= 4; $i++):
+                    $formatos = ['png', 'jpg', 'jpeg'];
+                    $rutaImagen = '';
+                    foreach ($formatos as $formato) {
+                        $ruta = "../img/Placa{$i}.{$formato}";
+                        if (file_exists($ruta)) {
+                            $rutaImagen = $ruta;
+                            break;
+                        }
+                    }
+                    if ($rutaImagen):
+                        ?>
+                        <div class="col-6 col-md-4 col-lg-2">
+                            <img src="<?php echo $rutaImagen; ?>" class="galeria-img"
+                                alt="<?php echo $selectedTexts["Placa{$i}_titulo"]; ?>">
+                        </div>
+                    <?php
+                    endif;
+                endfor;
+                ?>
             </div>
-        </section>
+            <div class="text-center mt-4">
+                <a href="../contacto.php" class="btn btn-primary text-white">
+                    <i class="fa-solid fa-paper-plane text-white me-2"></i>
+                    <?php echo $selectedTexts['solicitarInfo']; ?>
+                </a>
+            </div>
+        </div>
+    </section>
 
+    <?php include '../Footer.php'; ?>
 
-        <?php include '../Footer.php'; ?>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="../js/jquery-3.1.1.min.js"></script>
-        <script src="../js/flickity.min.js"></script>
-        <script src="../js/easypiechart.min.js"></script>
-        <script src="../js/parallax.js"></script>
-        <script src="../js/typed.min.js"></script>
-        <script src="../js/datepicker.js"></script>
-        <script src="../js/isotope.min.js"></script>
-        <script src="../js/ytplayer.min.js"></script>
-        <script src="../js/lightbox.min.js"></script>
-        <script src="../js/granim.min.js"></script>
-        <script src="../js/jquery.steps.min.js"></script>
-        <script src="../js/countdown.min.js"></script>
-        <script src="../js/twitterfetcher.min.js"></script>
-        <script src="../js/spectragram.min.js"></script>
-        <script src="../js/smooth-scroll.min.js"></script>
-        <script src="../js/scripts.js"></script>
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <script src="../js/flickity.min.js"></script>
+    <script src="../js/easypiechart.min.js"></script>
+    <script src="../js/parallax.js"></script>
+    <script src="../js/typed.min.js"></script>
+    <script src="../js/datepicker.js"></script>
+    <script src="../js/isotope.min.js"></script>
+    <script src="../js/ytplayer.min.js"></script>
+    <script src="../js/lightbox.min.js"></script>
+    <script src="../js/granim.min.js"></script>
+    <script src="../js/jquery.steps.min.js"></script>
+    <script src="../js/countdown.min.js"></script>
+    <script src="../js/twitterfetcher.min.js"></script>
+    <script src="../js/spectragram.min.js"></script>
+    <script src="../js/smooth-scroll.min.js"></script>
+    <script src="../js/scripts.js"></script>
 </body>
 
 </html>

@@ -4,16 +4,15 @@ $lang = $_GET['lang'] ?? 'es';
 $texts = [
     'es' => [
         'titulo' => 'Piezas Mecanizadas de CNC',
-        'descripcion1' => 'En SteinNova, nos especializamos en la fabricación de piezas mecanizadas CNC de alta precisión utilizando piezas de flogopita y moscovita. Estos materiales ofrecen excelentes propiedades de aislamiento eléctrico y resistencia térmica, siendo ideales para aplicaciones en entornos industriales exigentes.',
-        'descripcion2' => '',
-        'ventajas' => 'Beneficios de Nuestras Piezas de Piezas',
+        'descripcion' => 'En SteinNova, nos especializamos en la fabricación de piezas mecanizadas CNC de alta precisión utilizando piezas de flogopita y moscovita. Estos materiales ofrecen excelentes propiedades de aislamiento eléctrico y resistencia térmica, siendo ideales para aplicaciones en entornos industriales exigentes.',
+        'ventajas' => 'Ventajas',
         'ventajaItems' => [
             'Aislamiento Eléctrico Superior: Alta resistencia dieléctrica, esencial para componentes eléctricos y electrónicos.',
             'Resistencia a Altas Temperaturas: Soportan temperaturas extremas sin perder funcionalidad.',
             'Durabilidad y Precisión: Mecanizado CNC con tolerancias estrictas y acabados de calidad.',
             'Aplicaciones Versátiles: Para motores, transformadores, generadores y más.',
         ],
-        'aplicaciones' => 'Aplicaciones Destacadas',
+        'aplicaciones' => 'Aplicaciones',
         'aplicacionItems' => [
             'Vehículos Eléctricos: Aislamiento en baterías, inversores y motores.',
             'Sistemas de Alto Voltaje: Uso en transformadores y equipos eléctricos.',
@@ -32,18 +31,76 @@ $texts = [
         'pieza4_titulo' => 'Resistencia Extrema',
         'pieza4_texto' => 'Piezas que resisten altas temperaturas y tensiones eléctricas.',
     ],
+    'en' => [
+        'titulo' => 'CNC Machined Parts',
+        'descripcion' => 'At SteinNova, we specialize in manufacturing high-precision CNC machined parts using phlogopite and muscovite mica. These materials offer excellent electrical insulation and thermal resistance properties, making them ideal for demanding industrial applications.',
+        'ventajas' => 'Advantages',
+        'ventajaItems' => [
+            'Superior Electrical Insulation: High dielectric strength, essential for electrical and electronic components.',
+            'High-Temperature Resistance: Withstands extreme temperatures without losing functionality.',
+            'Durability and Precision: CNC machining with tight tolerances and high-quality finishes.',
+            'Versatile Applications: Suitable for motors, transformers, generators, and more.',
+        ],
+        'aplicaciones' => 'Applications',
+        'aplicacionItems' => [
+            'Electric Vehicles: Insulation in batteries, inverters, and motors.',
+            'High-Voltage Systems: Used in transformers and electrical equipment.',
+            'Renewable Energy: Insulation in solar and wind systems.',
+            'Appliances: Used in resistances for ovens, heaters, and dryers.',
+        ],
+        'galeria' => 'Application Gallery',
+        'solicitarInfo' => 'Request Information',
+        'exportamos' => 'Experience, advanced technology, and commitment to quality back us up.',
+        'pieza1_titulo' => 'High-Precision CNC',
+        'pieza1_texto' => 'Precise manufacturing with CNC machinery for critical components.',
+        'pieza2_titulo' => 'Premium Insulating Material',
+        'pieza2_texto' => 'We use phlogopite and muscovite mica for greater efficiency.',
+        'pieza3_titulo' => 'Industrial Versatility',
+        'pieza3_texto' => 'Solutions for electric vehicles, renewable energy, and more.',
+        'pieza4_titulo' => 'Extreme Resistance',
+        'pieza4_texto' => 'Parts that withstand high temperatures and electrical stresses.',
+    ],
+    'de' => [
+        'titulo' => 'CNC-gefertigte Teile',
+        'descripcion' => 'Bei SteinNova sind wir auf die Herstellung hochpräziser CNC-gefertigter Teile mit Phlogopit- und Muskovit-Mika spezialisiert. Diese Materialien bieten hervorragende elektrische Isolations- und thermische Beständigkeitseigenschaften, ideal für anspruchsvolle industrielle Anwendungen.',
+        'ventajas' => 'Vorteile',
+        'ventajaItems' => [
+            'Hervorragende elektrische Isolierung: Hohe Durchschlagfestigkeit, essenziell für elektrische und elektronische Komponenten.',
+            'Hohe Temperaturbeständigkeit: Hält extremen Temperaturen stand, ohne die Funktionalität zu verlieren.',
+            'Langlebigkeit und Präzision: CNC-Bearbeitung mit engen Toleranzen und hochwertigen Oberflächen.',
+            'Vielseitige Anwendungen: Geeignet für Motoren, Transformatoren, Generatoren und mehr.',
+        ],
+        'aplicaciones' => 'Anwendungen',
+        'aplicacionItems' => [
+            'Elektrofahrzeuge: Isolierung in Batterien, Wechselrichtern und Motoren.',
+            'Hochspannungssysteme: Verwendung in Transformatoren und elektrischen Geräten.',
+            'Erneuerbare Energien: Isolierung in Solar- und Windkraftsystemen.',
+            'Haushaltsgeräte: Verwendung in Widerständen für Öfen, Heizgeräte und Trockner.',
+        ],
+        'galeria' => 'Anwendungsgalerie',
+        'solicitarInfo' => 'Information anfordern',
+        'exportamos' => 'Erfahrung, fortschrittliche Technologie und Engagement für Qualität unterstützen uns.',
+        'pieza1_titulo' => 'Hochpräzises CNC',
+        'pieza1_texto' => 'Präzise Fertigung mit CNC-Maschinen für kritische Komponenten.',
+        'pieza2_titulo' => 'Premium-Isoliermaterial',
+        'pieza2_texto' => 'Wir verwenden Phlogopit- und Muskovit-Mika für höhere Effizienz.',
+        'pieza3_titulo' => 'Industrielle Vielseitigkeit',
+        'pieza3_texto' => 'Lösungen für Elektrofahrzeuge, erneuerbare Energien und mehr.',
+        'pieza4_titulo' => 'Extreme Beständigkeit',
+        'pieza4_texto' => 'Teile, die hohen Temperaturen und elektrischen Belastungen standhalten.',
+    ],
 ];
 
 $selectedTexts = $texts[$lang] ?? $texts['es'];
 ?>
 
-<!-- El resto del HTML permanece igual al original -->
 <!DOCTYPE html>
 <html lang="<?php echo htmlspecialchars($lang); ?>">
 
 <head>
     <meta charset="UTF-8">
-    <title><?php echo $selectedTexts['titulo']; ?></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><?php echo $selectedTexts['titulo']; ?> - SteinNova</title>
     <link rel="icon" href="../img/Logo2.png" type="image/png">
 
     <!-- CSS Frameworks and Custom Styles -->
@@ -60,20 +117,54 @@ $selectedTexts = $texts[$lang] ?? $texts['es'];
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700|Merriweather:300,300i"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-</head>
 
-<body>
+    <!-- Font Awesome for Button Icon -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Estilos específicos -->
     <style>
+        .mica-section {
+            background-color: #f8f9fa;
+        }
+
+        .mica-img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn-primary {
+            background-color: #e63946;
+            border: none;
+            padding: 12px 24px;
+            font-weight: 600;
+            font-size: 1.05rem;
+            border-radius: 8px;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            box-shadow: 0 6px 16px rgba(230, 57, 70, 0.4);
+            transition: all 0.3s ease;
+        }
+
+        .btn-primary:hover {
+            background-color: #d62839;
+            transform: scale(1.03);
+        }
+
+        .text-justified {
+            text-align: justify;
+        }
+
         .custom-table {
             width: 100%;
             border-collapse: separate;
             border-spacing: 0 12px;
-            /* espacio entre filas */
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         }
 
         .custom-table thead th {
-            background-color: rgb(210, 21, 21);
+            background-color: #e63946;
             color: white;
             text-align: left;
             padding: 12px 20px;
@@ -97,84 +188,48 @@ $selectedTexts = $texts[$lang] ?? $texts['es'];
         }
 
         .custom-table tbody td .icon {
-            color: rgb(0, 0, 0);
-            margin-right: 10px;
-        }
-
-        .icon {
-            font-size: 1.2rem;
-            /* más pequeño, ajusta según prefieras */
-            vertical-align: middle;
-            /* para que quede alineado con el texto */
             color: #4A90E2;
             margin-right: 10px;
         }
 
         .card-img-top {
             width: 100%;
-            /* Ajusta el ancho al contenedor */
-            height: 200px;
-            /* Altura fija para todas */
+            height: 150px;
             object-fit: cover;
-            /* Recorta y ajusta la imagen para mantener proporciones */
+            border-radius: 0.5rem;
         }
 
         .galeria-img {
-            width: 150px;
-            /* Ajusta el ancho a un valor fijo */
+            width: 100%;
             height: 150px;
-            /* Ajusta la altura a un valor fijo */
             object-fit: cover;
-            /* Asegura que la imagen llene el espacio sin distorsionarse */
-            border-radius: 8px;
-            /* Opcional: agrega esquinas redondeadas */
+            border-radius: 0.5rem;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
         }
     </style>
+</head>
+
+<body>
     <div class="nav-container">
         <?php include '../Header.php'; ?>
     </div>
 
-    <div class="container mt-5 mb-5">
-        <h1 class="text-center mb-4 fw-bold"><?php echo $selectedTexts['titulo']; ?></h1>
-        <p class="lead text-justify"><?php echo $selectedTexts['descripcion1']; ?></p>
-        <?php if (!empty($selectedTexts['descripcion2'])): ?>
-            <p class="text-justify"><?php echo $selectedTexts['descripcion2']; ?></p>
-        <?php endif; ?>
-
-        <table class="custom-table mt-4">
-            <thead>
-                <tr>
-                    <th><i class="fas fa-check-circle"></i> <?php echo $selectedTexts['ventajas']; ?></th>
-                    <th><i class="fas fa-cogs"></i> <?php echo $selectedTexts['aplicaciones']; ?></th>
-                </tr>
-            </thead>
-            <tbody>
-                <?php
-                $maxRows = max(count($selectedTexts['ventajaItems']), count($selectedTexts['aplicacionItems']));
-                for ($i = 0; $i < $maxRows; $i++):
-                    $ventaja = $selectedTexts['ventajaItems'][$i] ?? '';
-                    $aplicacion = $selectedTexts['aplicacionItems'][$i] ?? '';
-                    ?>
-                    <tr>
-                        <td><i class="fas fa-check icon"></i> <?php echo $ventaja; ?></td>
-                        <td><i class="fas fa-tools icon"></i> <?php echo $aplicacion; ?></td>
-                    </tr>
-                <?php endfor; ?>
-            </tbody>
-        </table>
-
-        <h3 class="mt-4 text-center"><strong><?php echo $selectedTexts['exportamos']; ?></strong></h3>
-
-        <div class="text-center mt-4">
-            <a href="../contacto.php" class="btn btn-danger">
-                <i class="fa-solid fa-paper-plane text-white me-2"></i>
-                <?php echo $selectedTexts['solicitarInfo']; ?>
-            </a>
+    <!-- Sección Introductoria -->
+    <section class="mica-section py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="fw-bold text-dark mb-4"><?php echo $selectedTexts['titulo']; ?></h2>
+                    <p class="text-muted lead text-justified"><?php echo $selectedTexts['descripcion']; ?></p>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
 
-    <!-- Tarjetas (Piezas) -->
+    <!-- Sección de Piezas -->
     <section class="container py-5" id="pieza1">
+        <h3 class="mt-4 text-center"><strong><?php echo $selectedTexts['exportamos']; ?></strong></h3>
+        <br><br>
         <div class="row g-4">
             <?php for ($i = 1; $i <= 4; $i++): ?>
                 <div class="col-md-3 col-6" id="pieza<?php echo $i; ?>">
@@ -202,7 +257,34 @@ $selectedTexts = $texts[$lang] ?? $texts['es'];
         </div>
     </section>
 
-    <!-- Galería -->
+    <!-- Sección Tabla -->
+    <section class="py-5">
+        <div class="container">
+            <table class="custom-table">
+                <thead>
+                    <tr>
+                        <th><i class="fas fa-check-circle"></i> <?php echo $selectedTexts['ventajas']; ?></th>
+                        <th><i class="fas fa-cogs"></i> <?php echo $selectedTexts['aplicaciones']; ?></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php
+                    $maxRows = max(count($selectedTexts['ventajaItems']), count($selectedTexts['aplicacionItems']));
+                    for ($i = 0; $i < $maxRows; $i++):
+                        $ventaja = $selectedTexts['ventajaItems'][$i] ?? '';
+                        $aplicacion = $selectedTexts['aplicacionItems'][$i] ?? '';
+                        ?>
+                        <tr>
+                            <td><i class="fas fa-check icon"></i> <?php echo $ventaja; ?></td>
+                            <td><i class="fas fa-tools icon"></i> <?php echo $aplicacion; ?></td>
+                        </tr>
+                    <?php endfor; ?>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Sección de Galería -->
     <section class="pt-5 pb-5 bg-light">
         <div class="container">
             <h2 class="text-center mb-4 fw-bold"><?php echo $selectedTexts['galeria']; ?></h2>
@@ -213,10 +295,18 @@ $selectedTexts = $texts[$lang] ?? $texts['es'];
                     </div>
                 <?php endfor; ?>
             </div>
+            <div class="text-center mt-4">
+                <a href="../contacto.php" class="btn btn-primary text-white">
+                    <i class="fa-solid fa-paper-plane text-white me-2"></i>
+                    <?php echo $selectedTexts['solicitarInfo']; ?>
+                </a>
+            </div>
         </div>
     </section>
 
     <?php include '../Footer.php'; ?>
+
+    <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="../js/jquery-3.1.1.min.js"></script>
     <script src="../js/flickity.min.js"></script>

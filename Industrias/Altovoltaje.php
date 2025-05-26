@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="es">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,18 +8,23 @@
   <meta name="description" content="Soluciones industriales en aislamiento dieléctrico automotriz y más.">
   <link rel="icon" href="../img/Logo2.png" type="image/png">
 
-  <!-- Google Fonts e Iconos -->
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Merriweather:300;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-
-  <!-- Bootstrap y estilos personalizados -->
+  <!-- CSS Frameworks and Custom Styles -->
   <link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
   <link href="../css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
   <link href="../css/theme.css" rel="stylesheet" type="text/css" media="all" />
   <link href="../css/custom.css" rel="stylesheet" type="text/css" media="all" />
+
+  <!-- Bootstrap 5 CDN -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700|Merriweather:300,300i"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Font Awesome for Button Icon -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 
   <!-- Estilos embebidos -->
   <style>
@@ -147,13 +153,27 @@
     }
 
     @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(30px); }
-      to { opacity: 1; transform: translateY(0); }
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
 
     @keyframes fadeInDown {
-      from { opacity: 0; transform: translateY(-30px); }
-      to { opacity: 1; transform: translateY(0); }
+      from {
+        opacity: 0;
+        transform: translateY(-30px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
   </style>
 </head>
@@ -171,10 +191,14 @@
         <div class="text-center mb-5">
           <h1>Alto Voltaje</h1>
           <p class="lead text-muted mx-auto" style="max-width: 800px;">
-            Las aplicaciones de alto voltaje requieren un material especializado y estable para el aislamiento. Los altos voltajes pueden comprometer un circuito completo, así como la seguridad de los usuarios y/u operadores.
+            Las aplicaciones de alto voltaje requieren un material especializado y estable para el aislamiento. Los
+            altos voltajes pueden comprometer un circuito completo, así como la seguridad de los usuarios y/u
+            operadores.
           </p>
           <p class="lead text-muted mx-auto" style="max-width: 800px;">
-            Los vehículos eléctricos (EV) requieren altos voltajes, altas corrientes y, por lo tanto, un excelente aislamiento eléctrico. El aislamiento de mica se usa comúnmente para aislar el chasis, el compartimiento de la batería y los componentes de carga para mejorar la seguridad del usuario.
+            Los vehículos eléctricos (EV) requieren altos voltajes, altas corrientes y, por lo tanto, un excelente
+            aislamiento eléctrico. El aislamiento de mica se usa comúnmente para aislar el chasis, el compartimiento de
+            la batería y los componentes de carga para mejorar la seguridad del usuario.
           </p>
         </div>
 
@@ -194,8 +218,10 @@
         <div class="text-block mt-4">
           <p><strong>Algunas aplicaciones más comunes son:</strong></p>
           <ul class="mt-3">
-            <li>Aislamiento entre devanados: la mica se emplea entre los devanados de las bobinas de los transformadores.</li>
-            <li>Barreras aislantes: se usa para separar los devanados primario y secundario o para aislar el núcleo.</li>
+            <li>Aislamiento entre devanados: la mica se emplea entre los devanados de las bobinas de los
+              transformadores.</li>
+            <li>Barreras aislantes: se usa para separar los devanados primario y secundario o para aislar el núcleo.
+            </li>
             <li>Revestimientos de ranuras: aislamiento de las ranuras donde se colocan los devanados.</li>
             <li>Bobinas: se utiliza para aislar los extremos de las bobinas del transformador.</li>
             <li>Juntas y sellos: proporcionan aislamiento y protegen de humedad o contaminantes.</li>
@@ -230,4 +256,5 @@
   <script src="../js/spectragram.min.js"></script>
   <script src="../js/scripts.js"></script>
 </body>
+
 </html>

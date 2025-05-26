@@ -15,7 +15,7 @@ $texto = [
     'es' => [
         'page_title' => 'Ciencia de Datos y Monitoreo Inteligente',
         'intro_header' => 'Ciencia de Datos y Monitoreo Inteligente',
-        'intro_text' => 'En Stein Metal, ayudamos a empresas industriales, del sector energías renovables y vehículos eléctricos (EV) a reducir drásticamente sus costos energéticos mediante ciencia de datos aplicada. Con tecnologías como R, Python, SQL y Power BI, analizamos tus datos operativos y energéticos para encontrar pérdidas, automatizar el monitoreo y proponer mejoras con impacto financiero directo.',
+        'intro_text' => 'En SteinNova, ayudamos a empresas industriales, del sector energías renovables y vehículos eléctricos (EV) a reducir drásticamente sus costos energéticos mediante ciencia de datos aplicada. Con tecnologías como R, Python, SQL y Power BI, analizamos tus datos operativos y energéticos para encontrar pérdidas, automatizar el monitoreo y proponer mejoras con impacto financiero directo.',
         'predictive_header' => 'Análisis Predictivo | Modelos Inteligentes | 100% Remoto',
         'predictive_text' => 'En Steinnova, transformamos datos energéticos en decisiones rentables. Aplicamos ciencia de datos, machine learning y visualización avanzada para ayudarte a predecir consumos, detectar desviaciones y optimizar procesos industriales sin interrupciones ni visitas presenciales.',
         'services_header' => 'Nuestros Servicios',
@@ -82,7 +82,7 @@ $texto = [
     'en' => [
         'page_title' => 'Data Science and Intelligent Monitoring',
         'intro_header' => 'Data Science and Intelligent Monitoring',
-        'intro_text' => 'At Stein Metal, we help industrial companies, renewable energy sectors, and electric vehicle (EV) manufacturers drastically reduce energy costs through applied data science. Using technologies like R, Python, SQL, and Power BI, we analyze your operational and energy data to identify losses, automate monitoring, and propose improvements with direct financial impact.',
+        'intro_text' => 'At SteinNova, we help industrial companies, renewable energy sectors, and electric vehicle (EV) manufacturers drastically reduce energy costs through applied data science. Using technologies like R, Python, SQL, and Power BI, we analyze your operational and energy data to identify losses, automate monitoring, and propose improvements with direct financial impact.',
         'predictive_header' => 'Predictive Analytics | Intelligent Models | 100% Remote',
         'predictive_text' => 'At Steinnova, we transform energy data into profitable decisions. We apply data science, machine learning, and advanced visualization to help you predict consumption, detect deviations, and optimize industrial processes without interruptions or on-site visits.',
         'services_header' => 'Our Services',
@@ -149,7 +149,7 @@ $texto = [
     'de' => [
         'page_title' => 'Datenwissenschaft und intelligentes Monitoring',
         'intro_header' => 'Datenwissenschaft und intelligentes Monitoring',
-        'intro_text' => 'Bei Stein Metal helfen wir Industrieunternehmen, dem Sektor erneuerbare Energien und Herstellern von Elektrofahrzeugen (EV), ihre Energiekosten durch angewandte Datenwissenschaft drastisch zu senken. Mit Technologien wie R, Python, SQL und Power BI analysieren wir Ihre Betriebs- und Energiedaten, um Verluste zu identifizieren, die Überwachung zu automatisieren und Verbesserungen mit direktem finanziellen Einfluss vorzuschlagen.',
+        'intro_text' => 'Bei SteinNova helfen wir Industrieunternehmen, dem Sektor erneuerbare Energien und Herstellern von Elektrofahrzeugen (EV), ihre Energiekosten durch angewandte Datenwissenschaft drastisch zu senken. Mit Technologien wie R, Python, SQL und Power BI analysieren wir Ihre Betriebs- und Energiedaten, um Verluste zu identifizieren, die Überwachung zu automatisieren und Verbesserungen mit direktem finanziellen Einfluss vorzuschlagen.',
         'predictive_header' => 'Prädiktive Analysen | Intelligente Modelle | 100% Remote',
         'predictive_text' => 'Bei Steinnova verwandeln wir Energiedaten in profitable Entscheidungen. Wir wenden Datenwissenschaft, maschinelles Lernen und fortschrittliche Visualisierung an, um Ihnen zu helfen, Verbräuche vorherzusagen, Abweichungen zu erkennen und industrielle Prozesse ohne Unterbrechungen oder Vor-Ort-Besuche zu optimieren.',
         'services_header' => 'Unsere Dienstleistungen',
@@ -224,7 +224,7 @@ $selectedTexts = $texto[$idioma];
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Stein Metal's data science and intelligent monitoring solutions for reducing energy costs in industrial, renewable energy, and electric vehicle sectors.">
+    <meta name="description" content="SteinNova's data science and intelligent monitoring solutions for reducing energy costs in industrial, renewable energy, and electric vehicle sectors.">
     <title><?php echo $selectedTexts['page_title']; ?> - SteinNova</title>
 
     <!-- Favicon -->

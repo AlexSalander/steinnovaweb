@@ -120,7 +120,7 @@ $selectedTexts = $texto[$idioma];
                     </a>
                 </div>
                 <div class="col-lg-6 text-center">
-                    <img src="../img/stein-0.jpg" alt="Stein Metal Empresa" class="about-img">
+                    <img src="../img/stein-0.jpg" alt="SteinNova Empresa" class="about-img">
                 </div>
             </div>
         </div>

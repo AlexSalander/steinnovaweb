@@ -2,8 +2,11 @@
 
 $texto = [
     'es' => [
+        'herramientas' => 'Herramientas Eléctricas y Neumáticas',
+        'cables' => 'Fabricación de Cables',
         'industries_header' => 'Ofrecemos las mejores alternativas sustentables a industrias',
         'industries_title' => 'Industrias',
+        'trenes' => 'Fabricación de Trenes',
         'automotriz' => 'Automotrices y EV',
         'fundicion' => 'Fundición de Autopartes y Siderurgia',
         'petroleo' => 'Petróleo y Gas',
@@ -21,8 +24,11 @@ $texto = [
         'location' => 'en Norteamérica y LATAM'
     ],
     'en' => [
+        'herramientas' => 'Electric and Pneumatic Tools',
+        'cables' => 'Cable Manufacturing',
         'industries_header' => 'We offer the best sustainable alternatives to',
         'industries_title' => 'Industries',
+        'trenes' => 'Train Manufacturing',
         'automotriz' => 'Automotive and EV',
         'fundicion' => 'Casting of Auto Parts and Steelmaking',
         'petroleo' => 'Oil and Gas',
@@ -40,8 +46,11 @@ $texto = [
         'location' => 'in North America and LATAM.'
     ],
     'de' => [
+        'herramientas' => 'Elektrische und pneumatische Werkzeuge',
+        'cables' => 'Kabelherstellung',
         'industries_header' => 'Wir bieten die besten nachhaltigen Alternativen zu',
         'industries_title' => 'Industrien',
+        'trenes' => 'Zugherstellung',
         'automotriz' => 'Automobil- und EV-Industrie',
         'fundicion' => 'Gießen von Autoteilen und Stahlherstellung',
         'petroleo' => 'Öl und Gas',
@@ -60,7 +69,6 @@ $texto = [
     ]
 ];
 
-// Asignar los textos correspondientes al idioma seleccionado
 $selectedTexts = $texto[$idioma];
 ?>
 
@@ -112,9 +120,12 @@ $selectedTexts = $texto[$idioma];
                     ['href' => './Industrias/Aeronautica.php?lang=' . $idioma, 'img' => 'img/stein-9.jpg', 'label' => $selectedTexts['aeronautica']],
                     ['href' => './Industrias/Altovoltaje.php?lang=' . $idioma, 'img' => 'img/stein-10.jpg', 'label' => $selectedTexts['altovoltaje']],
                     ['href' => './Industrias/Energias.php?lang=' . $idioma, 'img' => 'img/eolicas.png', 'label' => $selectedTexts['Energias']],
+                    ['href' => './Industrias/Trenes.php?lang=' . $idioma, 'img' => 'img/trenes.png', 'label' => $selectedTexts['trenes']],
+                    ['href' => './Industrias/Cables.php?lang=' . $idioma, 'img' => 'img/trenes.png', 'label' => $selectedTexts['cables']],
+                    ['href' => './Industrias/Herramientas.php?lang=' . $idioma, 'img' => 'img/trenes.png', 'label' => $selectedTexts['herramientas']],
                 ];
 
-                $chunks = array_chunk($industries, 3); // 3 por slide
+                $chunks = array_chunk($industries, 3);
                 foreach ($chunks as $index => $group) {
                     echo '<div class="carousel-item ' . ($index === 0 ? 'active' : '') . '">';
                     echo '<div class="row g-4 justify-content-center">';

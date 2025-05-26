@@ -21,9 +21,14 @@ if (isset($idioma) && in_array($idioma, ['es', 'en', 'de'])) {
 // Definir los textos para los distintos idiomas
 $texto = [
     'es' => [
+        'herramientas' => 'Herramientas Eléctricas y Neumáticas',
+        'cables' => 'Fabricación de Cables',
+        'trenes' => 'Fabricación de Trenes',
+        'placas' => 'Placas de Mica',
         'productos' => 'Productos', 
         'mica_flogopita' => 'Rollos de Mica Flogopita',
-        'aislamiento_electrico' => 'Aislamiento Eléctrico',
+        'aislamiento_electrico' => 'Tubos de Mica',
+        'M2' => 'Mica Rígida',
         'piezas_impresas_3d' => 'Piezas Impresas 3D',
         'piezas_mecanizadas_cnc' => 'Piezas Mecanizadas CNC',
         'cintas' => 'Cintas',
@@ -34,12 +39,11 @@ $texto = [
         'petroleo_gas' => 'Petróleo y Gas',
         'aeronautica' => 'Aeronáutica',
         'alto_voltaje' => 'Alto Voltaje',
-        'industria_militar' => 'Industria Militar',
+        'energias' => 'Energías Renovables',
         'servicios' => 'Servicios',
         'manufactura_robotizada_cnc' => 'Manufactura Robotizada CNC',
         'software_industrial' => 'Software Industrial',
         'soldadura_montaje' => 'Soldadura y Montaje',
-        'steinmetal' => 'SteinMetal',
         'steinnova' => 'SteinNova',
         'acerca_empresa' => 'Acerca de la Empresa',
         'nuestro_equipo' => 'Nuestro Equipo',
@@ -51,12 +55,17 @@ $texto = [
         'whatsapp_label' => 'Contáctanos por WhatsApp',
         'linkedin_label' => 'Síguenos en LinkedIn',
         'youtube_label' => 'Visita nuestro canal de YouTube',
-        'address_text' => 'Shakespeare 84 Colonia Anzures, Miguel Hidalgo CDMX. cp 11590'
+        'address_text' => 'Camino Real de La Plata 102 - Piso 5, Zona Plateada, Pachuca, Hidalgo'
     ],
     'en' => [
+        'herramientas' => 'Electric and Pneumatic Tools',
+        'cables' => 'Cable Manufacturing',
+        'trenes' => 'Train Manufacturing',
+        'placas' => 'Mica Plates',
         'productos' => 'Products',
         'mica_flogopita' => 'Flogopite Mica Rolls',
-        'aislamiento_electrico' => 'Electrical Insulation',
+        'tubos' => 'Mica Tubes',
+        'M2' => 'Rigid Mica',
         'piezas_impresas_3d' => '3D Printed Parts',
         'piezas_mecanizadas_cnc' => 'CNC Machined Parts',
         'cintas' => 'Tapes',
@@ -67,13 +76,12 @@ $texto = [
         'petroleo_gas' => 'Oil and Gas',
         'aeronautica' => 'Aeronautics',
         'alto_voltaje' => 'High Voltage',
-        'industria_militar' => 'Military Industry',
+        'energias' => 'Renewable Energies',
         'servicios' => 'Services',
         'manufactura_robotizada_cnc' => 'CNC Robotic Manufacturing',
         'software_industrial' => 'Industrial Software',
         'soldadura_montaje' => 'Welding and Assembly',
-        'steinmetal' => 'SteinMetal',
-        'steinnova' => 'SteinNova', // <--- Agregado
+        'steinnova' => 'SteinNova',
         'acerca_empresa' => 'About the Company',
         'nuestro_equipo' => 'Our Team',
         'nuestra_vision' => 'Our Vision and Values',
@@ -87,9 +95,14 @@ $texto = [
         'address_text' => 'Camino Real de La Plata 102-Floor 5, Zona Plateada, 42084 Pachuca de Soto, Hgo, Mexico.'
     ],
     'de' => [
+        'herramientas' => 'Elektrische und pneumatische Werkzeuge',
+        'cables' => 'Kabelherstellung',
+        'trenes' => 'Zugherstellung',
+        'placas' => 'Glimmerplatten',
         'productos' => 'Produkte',
         'mica_flogopita' => 'Flogopit-Mica-Rollen',
-        'aislamiento_electrico' => 'Elektrische Isolierung',
+        'tubos' => 'Glimmerröhren',
+        'M2' => 'Starre Glimmer',
         'piezas_impresas_3d' => '3D-gedruckte Teile',
         'piezas_mecanizadas_cnc' => 'CNC-gefräste Teile',
         'cintas' => 'Bänder',
@@ -100,13 +113,12 @@ $texto = [
         'petroleo_gas' => 'Öl und Gas',
         'aeronautica' => 'Luftfahrt',
         'alto_voltaje' => 'Hochspannung',
-        'industria_militar' => 'Militärindustrie',
+        'energias' => 'Erneuerbare Energien',
         'servicios' => 'Dienstleistungen',
         'manufactura_robotizada_cnc' => 'CNC-Roboterfertigung',
         'software_industrial' => 'Industrielle Software',
         'soldadura_montaje' => 'Schweißen und Montage',
-        'steinmetal' => 'SteinMetal',
-        'steinnova' => 'SteinNova', // <--- Agregado
+        'steinnova' => 'SteinNova',
         'acerca_empresa' => 'Über das Unternehmen',
         'nuestro_equipo' => 'Unser Team',
         'nuestra_vision' => 'Unsere Vision und Werte',
@@ -117,7 +129,7 @@ $texto = [
         'whatsapp_label' => 'Kontaktieren Sie uns über WhatsApp',
         'linkedin_label' => 'Folgen Sie uns auf LinkedIn',
         'youtube_label' => 'Besuchen Sie unseren YouTube-Kanal',
-        'address_text' => 'Shakespeare 84 Colonia Anzures, Miguel Hidalgo CDMX. cp 11590'
+        'address_text' => 'Camino Real de La Plata 102 - Piso 5, Zona Plateada, Pachuca, Hidalgo'
     ]
 ];
 
@@ -200,7 +212,7 @@ $selectedTexts = $texto[$idioma];
 
                     <!-- Dirección -->
                     <div class="footer-cell">
-                        <a href="https://maps.app.goo.gl/mVCNS8cgBVYDQWj56" target="_blank"
+                        <a href="https://maps.app.goo.gl/uy32SjB1gKnQPeoA7" target="_blank"
                            class="text-dark text-decoration-none">
                             <i class="fa-solid fa-location-dot text-danger fs-4 mb-2"></i>
                         </a>
@@ -219,12 +231,13 @@ $selectedTexts = $texto[$idioma];
                 <div class="footer-cell">
                     <h5><?php echo $selectedTexts['productos']; ?></h5>
                     <ul class="list-unstyled">
-                        <li><a href="<?php echo BASE_PATH; ?>micas.php?lang=<?php echo $idioma; ?>"><?php echo $selectedTexts['mica_flogopita']; ?></a></li>
-                        <li><a href="<?php echo BASE_PATH; ?>aislamientos.php?lang=<?php echo $idioma; ?>"><?php echo $selectedTexts['aislamiento_electrico']; ?></a></li>
-                        <li><a href="#"><?php echo $selectedTexts['piezas_impresas_3d']; ?></a></li>
-                        <li><a href="<?php echo BASE_PATH; ?>piezas.php?lang=<?php echo $idioma; ?>"><?php echo $selectedTexts['piezas_mecanizadas_cnc']; ?></a></li>
-                        <li><a href="<?php echo BASE_PATH; ?>cintas.php?lang=<?php echo $idioma; ?>"><?php echo $selectedTexts['cintas']; ?></a></li>
-                        <li><a href="<?php echo BASE_PATH; ?>agujas.php?lang=<?php echo $idioma; ?>"><?php echo $selectedTexts['agujas']; ?></a></li>
+                        <li><a href="<?php echo BASE_PATH; ?>productos/micas.php?lang=<?php echo $idioma; ?>"><?php echo $selectedTexts['mica_flogopita']; ?></a></li>
+                        <li><a href="<?php echo BASE_PATH; ?>productos/tubos_mica.php?lang=<?php echo $idioma; ?>"><?php echo $selectedTexts['tubos']; ?></a></li>
+                        <li><a href="<?php echo BASE_PATH; ?>productos/piezas.php?lang=<?php echo $idioma; ?>"><?php echo $selectedTexts['piezas_mecanizadas_cnc']; ?></a></li>
+                        <li><a href="<?php echo BASE_PATH; ?>productos/M2.php?lang=<?php echo $idioma; ?>"><?php echo $selectedTexts['M2']; ?></a></li>
+                        <li><a href="<?php echo BASE_PATH; ?>productos/cintas.php?lang=<?php echo $idioma; ?>"><?php echo $selectedTexts['cintas']; ?></a></li>
+                        <li><a href="<?php echo BASE_PATH; ?>productos/piezas.php?lang=<?php echo $idioma; ?>"><?php echo $selectedTexts['piezas_mecanizadas_cnc']; ?></a></li>
+                        <li><a href="<?php echo BASE_PATH; ?>productos/Placas.php?lang=<?php echo $idioma; ?>"><?php echo $selectedTexts['placas']; ?></a></li>
                     </ul>
                 </div>
 
@@ -237,7 +250,10 @@ $selectedTexts = $texto[$idioma];
                         <li><a href="<?php echo BASE_PATH; ?>Industrias/Petroleo.php?lang=<?php echo $idioma; ?>"><?php echo $selectedTexts['petroleo_gas']; ?></a></li>
                         <li><a href="<?php echo BASE_PATH; ?>Industrias/Aeronautica.php?lang=<?php echo $idioma; ?>"><?php echo $selectedTexts['aeronautica']; ?></a></li>
                         <li><a href="<?php echo BASE_PATH; ?>Industrias/Altovoltaje.php?lang=<?php echo $idioma; ?>"><?php echo $selectedTexts['alto_voltaje']; ?></a></li>
-                        <li><a href="<?php echo BASE_PATH; ?>Industrias/Energias.php?lang=<?php echo $idioma; ?>"><?php echo $selectedTexts['industria_militar']; ?></a></li>
+                        <li><a href="<?php echo BASE_PATH; ?>Industrias/Energias.php?lang=<?php echo $idioma; ?>"><?php echo $selectedTexts['energias']; ?></a></li>
+                        <li><a href="<?php echo BASE_PATH; ?>Industrias/Trenes.php?lang=<?php echo $idioma; ?>"><?php echo $selectedTexts['trenes']; ?></a></li>
+                        <li><a href="<?php echo BASE_PATH; ?>Industrias/Cables.php?lang=<?php echo $idioma; ?>"><?php echo $selectedTexts['cables']; ?></a></li>
+                        <li><a href="<?php echo BASE_PATH; ?>Industrias/Herramientas.php?lang=<?php echo $idioma; ?>"><?php echo $selectedTexts['herramientas']; ?></a></li>
                     </ul>
                 </div>
 
@@ -245,9 +261,9 @@ $selectedTexts = $texto[$idioma];
                 <div class="footer-cell">
                     <h5><?php echo $selectedTexts['servicios']; ?></h5>
                     <ul class="list-unstyled mb-4">
-                        <li><a href="<?php echo BASE_PATH; ?>manufactura.php?lang=<?php echo $idioma; ?>"><?php echo $selectedTexts['manufactura_robotizada_cnc']; ?></a></li>
-                        <li><a href="<?php echo BASE_PATH; ?>software_industrial.php?lang=<?php echo $idioma; ?>"><?php echo $selectedTexts['software_industrial']; ?></a></li>
-                        <li><a href="<?php echo BASE_PATH; ?>instalaciones.php?lang=<?php echo $idioma; ?>"><?php echo $selectedTexts['soldadura_montaje']; ?></a></li>
+                        <li><a href="<?php echo BASE_PATH; ?>servicios/manufactura.php?lang=<?php echo $idioma; ?>"><?php echo $selectedTexts['manufactura_robotizada_cnc']; ?></a></li>
+                        <li><a href="<?php echo BASE_PATH; ?>servicios/software_industrial.php?lang=<?php echo $idioma; ?>"><?php echo $selectedTexts['software_industrial']; ?></a></li>
+                        <li><a href="<?php echo BASE_PATH; ?>servicios/instalaciones.php?lang=<?php echo $idioma; ?>"><?php echo $selectedTexts['soldadura_montaje']; ?></a></li>
                     </ul>
                     <h5><?php echo $selectedTexts['steinnova']; ?></h5>
                     <ul class="list-unstyled">

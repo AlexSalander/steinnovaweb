@@ -17,7 +17,7 @@ $texto = [
         'mes_text' => 'Monitorea y controla la ejecución de la producción en tiempo real.<br><strong>Funciones:</strong><ul><li>Registro de órdenes de producción y consumo de materiales</li><li>Seguimiento de OEE (eficiencia global de equipos)</li><li>Integración con sensores o SCADA para captura automática</li><li>Registro de scrap, paros, tiempos de ciclo y calidad en línea</li><li>Dashboard con rendimiento por turno, línea o célula de trabajo</li></ul><strong>Ideal para plantas con procesos automatizados o por lotes.</strong>',
         'how_we_work_header' => '¿Cómo trabajamos?',
         'how_we_work_text' => '<ul><li><strong>Análisis de necesidades:</strong> diagnosticamos tu planta y elegimos la mejor solución</li><li><strong>Implementación remota o híbrida:</strong> instalación, capacitación y pruebas</li><li><strong>Soporte continuo:</strong> soporte técnico, actualizaciones y mejoras</li><li><strong>Integración con tus sistemas actuales:</strong> Excel, SCADA, IoT, Power BI, etc.</li></ul>',
-        'why_choose_header' => '¿Por qué elegir Stein Metal?',
+        'why_choose_header' => '¿Por qué elegir SteinNova?',
         'why_choose_text' => '<ul><li>Especialistas en software para entornos industriales</li><li>Soluciones adaptadas a tus procesos, no genéricas</li><li>Paneles de control con KPIs y visualización en tiempo real</li><li>Soporte técnico remoto continuo</li><li>Implementación rápida y sin fricción operativa</li></ul>',
         'contact_form_header' => 'Contáctanos',
         'form_name' => 'Nombre',
@@ -42,7 +42,7 @@ $texto = [
         'mes_text' => 'Monitors and controls production execution in real time.<br><strong>Features:</strong><ul><li>Recording of production orders and material consumption</li><li>OEE (Overall Equipment Effectiveness) tracking</li><li>Integration with sensors or SCADA for automatic data capture</li><li>Recording of scrap, downtime, cycle times, and inline quality</li><li>Dashboard with performance by shift, line, or work cell</li></ul><strong>Ideal for plants with automated or batch processes.</strong>',
         'how_we_work_header' => 'How do we work?',
         'how_we_work_text' => '<ul><li><strong>Needs analysis:</strong> we diagnose your plant and select the best solution</li><li><strong>Remote or hybrid implementation:</strong> installation, training, and testing</li><li><strong>Continuous support:</strong> technical support, updates, and improvements</li><li><strong>Integration with your current systems:</strong> Excel, SCADA, IoT, Power BI, etc.</li></ul>',
-        'why_choose_header' => 'Why choose Stein Metal?',
+        'why_choose_header' => 'Why choose SteinNova?',
         'why_choose_text' => '<ul><li>Specialists in software for industrial environments</li><li>Solutions tailored to your processes, not generic</li><li>Control panels with KPIs and real-time visualization</li><li>Continuous remote technical support</li><li>Fast and seamless operational implementation</li></ul>',
         'contact_form_header' => 'Contact Us',
         'form_name' => 'Name',
@@ -67,7 +67,7 @@ $texto = [
         'mes_text' => 'Überwacht und steuert die Produktionsausführung in Echtzeit.<br><strong>Funktionen:</strong><ul><li>Erfassung von Produktionsaufträgen und Materialverbrauch</li><li>Verfolgung der OEE (Gesamtanlageneffektivität)</li><li>Integration mit Sensoren oder SCADA für automatische Datenerfassung</li><li>Erfassung von Ausschuss, Stillständen, Zykluszeiten und Qualität inline</li><li>Dashboard mit Leistung nach Schicht, Linie oder Arbeitszelle</li></ul><strong>Ideal für Werke mit automatisierten oder chargenbasierten Prozessen.</strong>',
         'how_we_work_header' => 'Wie arbeiten wir?',
         'how_we_work_text' => '<ul><li><strong>Bedarfsanalyse:</strong> Wir diagnostizieren Ihr Werk und wählen die beste Lösung</li><li><strong>Fern- oder hybride Implementierung:</strong> Installation, Schulung und Tests</li><li><strong>Kontinuierlicher Support:</strong> technischer Support, Updates und Verbesserungen</li><li><strong>Integration mit Ihren aktuellen Systemen:</strong> Excel, SCADA, IoT, Power BI, etc.</li></ul>',
-        'why_choose_header' => 'Warum Stein Metal wählen?',
+        'why_choose_header' => 'Warum SteinNova wählen?',
         'why_choose_text' => '<ul><li>Spezialisten für Software in industriellen Umgebungen</li><li>Lösungen, die auf Ihre Prozesse zugeschnitten sind, nicht generisch</li><li>Bedienfelder mit KPIs und Echtzeit-Visualisierung</li><li>Kontinuierlicher technischer Fernsupport</li><li>Schnelle und reibungslose operative Implementierung</li></ul>',
         'contact_form_header' => 'Kontaktieren Sie uns',
         'form_name' => 'Name',
@@ -90,7 +90,7 @@ $selectedTexts = $texto[$idioma];
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Stein Metal's industrial software solutions for optimizing, monitoring, and automating critical processes in production plants.">
+    <meta name="description" content="SteinNova's industrial software solutions for optimizing, monitoring, and automating critical processes in production plants.">
     <title><?php echo $selectedTexts['page_title']; ?> - SteinMetal</title>
 
     <!-- Favicon -->

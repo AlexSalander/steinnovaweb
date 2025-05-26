@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="es">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,18 +8,23 @@
   <meta name="description" content="Soluciones industriales en aislamiento dieléctrico automotriz y más.">
   <link rel="icon" href="../img/Logo2.png" type="image/png">
 
-  <!-- Google Fonts e Iconos -->
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Merriweather:300&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-
-  <!-- Bootstrap y estilos personalizados -->
+  <!-- CSS Frameworks and Custom Styles -->
   <link href="../css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
   <link href="../css/stack-interface.css" rel="stylesheet" type="text/css" media="all" />
   <link href="../css/theme.css" rel="stylesheet" type="text/css" media="all" />
   <link href="../css/custom.css" rel="stylesheet" type="text/css" media="all" />
+
+  <!-- Bootstrap 5 CDN -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700|Merriweather:300,300i"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Font Awesome for Button Icon -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 
   <!-- Estilos embebidos -->
   <style>
@@ -150,6 +156,7 @@
         opacity: 0;
         transform: translateY(30px);
       }
+
       to {
         opacity: 1;
         transform: translateY(0);
@@ -171,7 +178,11 @@
         <div class="text-center mb-5">
           <h1>Fundición de Autopartes y Siderurgia</h1>
           <p class="mt-3 mx-auto" style="max-width: 800px;">
-          Las fundiciones de partes automotrices metálicas juegan un rol esencial en la cadena de suministro para BOMs como son discos de freno, cigueñales,árboles de leva, pistones etc. Por ello orientamos nuestros esfuerzos en proveer el suministro estratégico de materiales consumibles para el mantenimiento de sus núcleos de producción como es el caso de los hornos de los inducción, ollas de transferencias, sistemas die casting y líneas de moldeo.
+            Las fundiciones de partes automotrices metálicas juegan un rol esencial en la cadena de suministro para BOMs
+            como son discos de freno, cigueñales,árboles de leva, pistones etc. Por ello orientamos nuestros esfuerzos
+            en proveer el suministro estratégico de materiales consumibles para el mantenimiento de sus núcleos de
+            producción como es el caso de los hornos de los inducción, ollas de transferencias, sistemas die casting y
+            líneas de moldeo.
           </p>
         </div>
 
@@ -223,4 +234,5 @@
   <script src="../js/spectragram.min.js"></script>
   <script src="../js/scripts.js"></script>
 </body>
+
 </html>

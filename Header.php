@@ -27,8 +27,13 @@ if (isset($idioma) && in_array($idioma, ['es', 'en', 'de'])) {
 // Textos por idioma para el header
 $headerTexto = [
     'es' => [
+        'herramientas' => 'Herramientas Eléctricas y Neumáticas',
+        'cables' => 'Fabricación de Cables',
+        'trenes' => 'Fabricación de Trenes',
+        'placas' => 'Placas de Mica',
         'empowering' => 'Potenciamos las industrias',
         'home' => 'INICIO',
+        'M2' => 'Mica Rígida',
         'about' => 'Acerca de la Empresa',
         'team' => 'Nuestro Equipo',
         'vision' => 'Nuestra Visión 2030',
@@ -39,7 +44,7 @@ $headerTexto = [
         'company' => 'SteinNova',
         'mica_flogopita' => 'Rollos de Mica Flogopita',
         'cintas' => 'Cintas de Mica y Fibra de Vidrio',
-        'aislamientos' => 'Aislamientos para EV',
+        'tubos' => 'Tubos de Mica',
         'piezas' => 'Piezas Mecanizadas CNC',
         'fibra' => 'Fibra Cerámica',
         'plato' => 'Plato Vibrador Hornos de Inducción',
@@ -58,9 +63,14 @@ $headerTexto = [
         'ciencia_datos_monitoreoI' => 'Ciencia de Datos y Monitoreo inteligente'
     ],
     'en' => [
+        'herramientas' => 'Electric and Pneumatic Tools',
+        'cables' => 'Cable Manufacturing',
+        'trenes' => 'Train Manufacturing',
+        'placas' => 'Mica Plates',
         'empowering' => 'We Empower Industries',
         'home' => 'HOME',
         'about' => 'About the Company',
+        'M2' => 'Rigid Mica',
         'team' => 'Our Team',
         'vision' => 'Our Vision 2030',
         'products' => 'Products',
@@ -70,7 +80,7 @@ $headerTexto = [
         'company' => 'SteinNova',
         'mica_flogopita' => 'Flogopite Mica Rolls',
         'cintas' => 'Mica and Fiberglass Tapes',
-        'aislamientos' => 'EV Insulation',
+        'tubos' => 'Mica Tubes',
         'piezas' => 'CNC Machined Parts',
         'fibra' => 'Ceramic Fiber',
         'plato' => 'Induction Furnace Vibrating Plate',
@@ -89,9 +99,14 @@ $headerTexto = [
         'ciencia_datos_monitoreoI' => 'Data Science and Intelligent Monitoring'
     ],
     'de' => [
+        'herramientas' => 'Elektrische und pneumatische Werkzeuge',
+        'cables' => 'Kabelherstellung',
+        'trenes' => 'Zugherstellung',
+        'placas' => 'Glimmerplatten',
         'empowering' => 'Wir stärken Branchen',
         'home' => 'Zuhause',
         'about' => 'Über das Unternehmen',
+        'M2' => 'Steife Glimmer',
         'team' => 'Unser Team',
         'vision' => 'Unsere Vision 2030',
         'products' => 'Produkte',
@@ -101,7 +116,7 @@ $headerTexto = [
         'company' => 'SteinNova',
         'mica_flogopita' => 'Flogopit-Mica-Rollen',
         'cintas' => 'Glimmer- und Glasfaserbänder',
-        'aislamientos' => 'EV-Isolierungen',
+        'tubos' => 'Glimmerröhren',
         'piezas' => 'CNC-bearbeitete Teile',
         'fibra' => 'Keramikfaser',
         'plato' => 'Induktionsofen Vibrationsplatte',
@@ -234,9 +249,10 @@ $currentFlag = $flagImages[$idioma];
                                             <ul class="menu-vertical">
                                                 <li><a href="<?php echo BASE_PATH; ?>productos/micas.php?lang=<?php echo $idioma; ?>" class="dropdown-item"><?php echo $headerTexts['mica_flogopita']; ?></a></li>
                                                 <li><a href="<?php echo BASE_PATH; ?>productos/cintas.php?lang=<?php echo $idioma; ?>" class="dropdown-item"><?php echo $headerTexts['cintas']; ?></a></li>
-                                                <li><a href="<?php echo BASE_PATH; ?>productos/aislamientos.php?lang=<?php echo $idioma; ?>" class="dropdown-item"><?php echo $headerTexts['aislamientos']; ?></a></li>
+                                                <li><a href="<?php echo BASE_PATH; ?>productos/tubos_mica.php?lang=<?php echo $idioma; ?>" class="dropdown-item"><?php echo $headerTexts['tubos']; ?></a></li>
+                                                <li><a href="<?php echo BASE_PATH; ?>productos/M2.php?lang=<?php echo $idioma; ?>" class="dropdown-item"><?php echo $headerTexts['M2']; ?></a></li>
                                                 <li><a href="<?php echo BASE_PATH; ?>productos/piezas.php?lang=<?php echo $idioma; ?>" class="dropdown-item"><?php echo $headerTexts['piezas']; ?></a></li>
-                                                <li><a href="<?php echo BASE_PATH; ?>productos/agujas.php?lang=<?php echo $idioma; ?>" class="dropdown-item"><?php echo $headerTexts['agujas']; ?></a></li>
+                                                <li><a href="<?php echo BASE_PATH; ?>productos/Placas.php?lang=<?php echo $idioma; ?>" class="dropdown-item"><?php echo $headerTexts['placas']; ?></a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -274,6 +290,9 @@ $currentFlag = $flagImages[$idioma];
                                                 <li><a href="<?php echo BASE_PATH; ?>Industrias/Aeronautica.php?lang=<?php echo $idioma; ?>" class="dropdown-item"><?php echo $headerTexts['aeronautica']; ?></a></li>
                                                 <li><a href="<?php echo BASE_PATH; ?>Industrias/Altovoltaje.php?lang=<?php echo $idioma; ?>" class="dropdown-item"><?php echo $headerTexts['altovoltaje']; ?></a></li>
                                                 <li><a href="<?php echo BASE_PATH; ?>Industrias/Energias.php?lang=<?php echo $idioma; ?>" class="dropdown-item"><?php echo $headerTexts['industria_Energías Renovables']; ?></a></li>
+                                                <li><a href="<?php echo BASE_PATH; ?>Industrias/Trenes.php?lang=<?php echo $idioma; ?>" class="dropdown-item"><?php echo $headerTexts['trenes']; ?></a></li>
+                                                <li><a href="<?php echo BASE_PATH; ?>Industrias/Cables.php?lang=<?php echo $idioma; ?>" class="dropdown-item"><?php echo $headerTexts['cables']; ?></a></li>
+                                                <li><a href="<?php echo BASE_PATH; ?>Industrias/Herramientas.php?lang=<?php echo $idioma; ?>" class="dropdown-item"><?php echo $headerTexts['herramientas']; ?></a></li>
                                             </ul>
                                         </div>
                                     </div>
